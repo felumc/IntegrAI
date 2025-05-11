@@ -6,8 +6,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/integrai' : '',
-  assetPrefix: isProd ? '/integrai/' : '',
 };
 
 module.exports = nextConfig; 
