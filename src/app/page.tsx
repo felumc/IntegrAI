@@ -5,16 +5,16 @@ import { useState, useEffect, useRef } from 'react';
 
 const faqs = [
   {
-    question: 'What solutions does Opscale offer?',
-    answer: 'Opscale provides AI-powered analytics, automation, security, and real-time insights to streamline business operations.'
+    question: 'What solutions does IntegrAI offer?',
+    answer: 'IntegrAI provides AI-powered analytics, automation, security, and real-time insights to streamline business operations.'
   },
   {
     question: 'How quickly can I get started?',
     answer: 'You can get started within minutes. Our onboarding process is fast and easy.'
   },
   {
-    question: 'Can I customize Opscale for my needs?',
-    answer: 'Absolutely! Opscale is designed to be flexible and customizable to fit your unique business requirements.'
+    question: 'Can I customize IntegrAI for my needs?',
+    answer: 'Absolutely! IntegrAI is designed to be flexible and customizable to fit your unique business requirements.'
   },
   {
     question: 'Do you provide support & updates?',
