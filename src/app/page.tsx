@@ -1,3 +1,9 @@
+declare global {
+  interface Window {
+    Calendly?: any;
+  }
+}
+
 'use client';
 import { FiZap, FiSmile, FiClock, FiDollarSign, FiBarChart2, FiTrendingUp, FiChevronDown, FiChevronUp ,FiBarChart, FiEdit3, FiMessageCircle } from 'react-icons/fi';
 import Image from 'next/image'
@@ -111,6 +117,25 @@ export default function Home() {
   ];
   const processRefs = useStaggeredFadeIn(processSteps.length);
 
+  useEffect(() => {
+    // Only add script if it hasn't been added yet
+    if (!document.getElementById('calendly-widget-script')) {
+      const script = document.createElement('script');
+      script.id = 'calendly-widget-script';
+      script.src = 'https://assets.calendly.com/assets/external/widget.js';
+      script.async = true;
+      document.body.appendChild(script);
+    }
+    // Only add Calendly CSS if it hasn't been added yet
+    if (!document.getElementById('calendly-widget-css')) {
+      const link = document.createElement('link');
+      link.id = 'calendly-widget-css';
+      link.rel = 'stylesheet';
+      link.href = 'https://assets.calendly.com/assets/external/widget.css';
+      document.head.appendChild(link);
+    }
+  }, []);
+
   return (
     <main className="min-h-screen bg-integrai-warm font-sans">
       {/* Hero Section */}
@@ -136,9 +161,13 @@ export default function Home() {
             </p>
             <div className="flex gap-6 w-full md:w-auto justify-end">
               <a
-                href="https://calendly.com/contact-integrai/30min"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={e => {
+                  e.preventDefault();
+                  if (window.Calendly) {
+                    window.Calendly.initPopupWidget({ url: 'https://calendly.com/contact-integrai/30min' });
+                  }
+                }}
                 className="bg-white text-[#0f172a] px-10 py-4 rounded-full font-normal text-lg shadow-md hover:bg-blue-100 transition-all border-2 border-white inline-block text-center"
               >
                 Let's talk
@@ -329,9 +358,13 @@ export default function Home() {
             <h2 className="text-7xl font-light mb-8 text-white">So you can Scale Faster</h2>
             <p className="text-2xl font-light text-white mb-12">Book a Call Today and Start Automating</p>
             <a
-              href="https://calendly.com/contact-integrai/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={e => {
+                e.preventDefault();
+                if (window.Calendly) {
+                  window.Calendly.initPopupWidget({ url: 'https://calendly.com/contact-integrai/30min' });
+                }
+              }}
               className="bg-white text-[#0f172a] px-12 py-6 rounded-full font-normal hover:bg-blue-100 transition-all text-lg shadow-lg mb-12 inline-block text-center"
             >
               Book a free call
