@@ -139,23 +139,23 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-integrai-warm font-sans">
       {/* Hero Section */}
-      <section id='home' className="pt-32 pb-32 min-h-[70vh] relative flex items-center" style={{background: '', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+      <section id='home' className="pt-32 pb-24 md:pb-32 min-h-[70vh] relative flex items-center" style={{background: '', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
         <div className="absolute inset-0  pointer-events-none z-0" />
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center md:items-start justify-between gap-12 relative z-10">
           {/* Left: Title */}
           <div className="flex-[2] flex flex-col justify-center items-start">
-            <h1 className="text-6xl md:text-8xl text-white font-light leading-tight mb-0 tracking-tight" style={{lineHeight: '1.05'}}>
+            <h1 className="text-5xl md:text-8xl text-white font-light leading-tight mb-0 tracking-tight" style={{lineHeight: '1.05'}}>
               Innovative AI 
             </h1>
-            <h1 className="text-6xl md:text-8xl text-white font-light leading-tight mb-0 tracking-tight" style={{lineHeight: '1.05'}}>
+            <h1 className="text-5xl md:text-8xl text-white font-light leading-tight mb-0 tracking-tight" style={{lineHeight: '1.05'}}>
               Solutions to Grow
             </h1>
-            <h1 className="text-6xl md:text-8xl text-white font-light leading-tight mb-0 tracking-tight" style={{lineHeight: '1.05'}}>
+            <h1 className="text-5xl md:text-8xl text-white font-light leading-tight mb-0 tracking-tight" style={{lineHeight: '1.05'}}>
               Your Business
             </h1>
           </div>
           {/* Right: Subtitle and Buttons */}
-          <div className="flex-[1] flex flex-col items-end justify-center w-full md:w-auto mt-80">
+          <div className="flex-[1] flex flex-col items-end justify-center w-full md:w-auto mt-16 md:mt-80">
             <p className="text-2xl md:text-3xl text-white mb-10 max-w-md text-right font-light">
             We help companies in Mexico automate repetitive tasks, connect systems, and work smarter with AI-powered workflows built just for you.
             </p>
@@ -178,12 +178,12 @@ export default function Home() {
       </section>
 
       {/* Strategic Partner Section */}
-      <section id='services' className="pt-32 pb-24 bg-white">
+      <section id='services' className="pt-12 md:pt-32 pb-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-16 items-start mb-20">
             {/* Left: Large Heading */}
             <div className="flex-1">
-              <h2 className="text-6xl md:text-7xl font-light text-[#0f172a] leading-tight mb-0">Simplify Work.<br/> Boost Efficiency.<br/> Grow Smarter.</h2>
+              <h2 className="text-5xl md:text-7xl font-light text-[#0f172a] leading-tight mb-0">Simplify Work.<br/> Boost Efficiency.<br/> Grow Smarter.</h2>
             </div>
             {/* Right: Paragraphs and Link */}
             <div className="flex-1 flex flex-col justify-center">
@@ -199,13 +199,13 @@ export default function Home() {
             </div>
           </div>
           {/* Stats Row */}
-          <h2 className="text-6xl text-[#0f172a] mb-8 pt-24 text-center font-light border-t border-gray-200">What We Offer</h2>
+          <h2 className="text-5xl md:text-6xl text-[#0f172a] mb-8 pt-24 text-center font-light border-t border-gray-200">What We Offer</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 border-b pb-36 border-gray-200 pt-16">
             <div className="flex flex-col h-full">
-              <div className="text-3xl md:text-5xl font-light text-[#0f172a] mb-12">AI-Powered Business Automation</div>
+              <div className="text-3xl md:text-5xl font-light text-[#0f172a] mb-12 pl-8 md:pl-0">AI-Powered Business Automation</div>
               <div className="flex-grow" />
-              <div className="text-lg text-gray-600 font-light mb-0">We design intelligent workflows that automate repetitive tasks, reduce errors, and free up your team to focus on what matters most.</div>
+              <div className="text-lg text-gray-600 font-light mb-0 pl-8 md:pl-0">We design intelligent workflows that automate repetitive tasks, reduce errors, and free up your team to focus on what matters most.</div>
             </div>
             <div className="flex flex-col h-full border-l border-gray-200 pl-8">
               <div className="text-3xl md:text-5xl font-light text-[#0f172a] mb-12">AI Assistants for Teams & Customers</div>
@@ -229,7 +229,7 @@ export default function Home() {
       {/* Process Section - Modern Card Grid with Visuals */}
       <section className="pb-32 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-7xl text-[#0f172a] mb-8 text-center font-light">Our Simple, Smart, and Scalable Process</h2>
+          <h2 className="text-5xl md:text-7xl text-[#0f172a] mb-8 text-center font-light">Our Simple, Smart, and Scalable Process</h2>
           <p className="text-2xl font-light text-[#0f172a] mb-20 text-center">We design, develop, and implement automation tools that help you work smarter, not harder</p>
           <div className="flex flex-col gap-8">
             {processSteps.map((step, idx) => (
@@ -250,8 +250,8 @@ export default function Home() {
       <section className="py-32 bg-black">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center mb-8">
-            <h2 className="text-7xl font-light text-center mb-2 text-white">The Key Benefits of AI</h2>
-            <h2 className="text-7xl font-light text-center mb-8 text-white">For Your Business Growth</h2>
+            <h2 className="text-5xl md:text-7xl font-light text-center mb-2 text-white">The Key Benefits of AI</h2>
+            <h2 className="text-5xl md:text-7xl font-light text-center mb-8 text-white">For Your Business Growth</h2>
             <p className="text-2xl text-gray-300 text-center max-w-2xl font-light mb-20">
               Discover how AI automation enhances efficiency, reduces costs, and drives business growth with smarter, faster processes.
             </p>
@@ -304,7 +304,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-16 items-start">
             {/* Left: Heading & Description */}
             <div className="flex-1 mb-12 md:mb-0">
-              <h2 className="text-6xl md:text-7xl font-light text-[#0f172a] leading-tight mb-6">Frequently<br />Asked Question</h2>
+              <h2 className="text-6xl md:text-7xl font-light text-[#0f172a] leading-tight mb-6">Frequently<br />Asked Questions</h2>
               <p className="text-xl text-gray-500 font-light">Here are some frequently asked questions with answers to clarify doubts.</p>
             </div>
             {/* Right: FAQ Accordion */}
