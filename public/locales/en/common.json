@@ -1,0 +1,148 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": {
+      "line1": "Innovative AI",
+      "line2": "Solutions to Grow",
+      "line3": "Your Business"
+    },
+    "subtitle": "We help companies in Mexico automate repetitive tasks, connect systems, and work smarter with AI-powered workflows built just for you.",
+    "cta": "Let's talk"
+  },
+  "services": {
+    "heading": {
+      "line1": "Simplify Work.",
+      "line2": "Boost Efficiency.",
+      "line3": "Grow Smarter."
+    },
+    "description": {
+      "p1": "IntegrAI builds intelligent automations and integrations that eliminate repetitive tasks and unlock new levels of productivity.",
+      "p2": "Whether you're running a small business or managing a growing team, we design solutions that adapt to your workflow — not the other way around."
+    },
+    "learnMore": "Learn More",
+    "whatWeOffer": "What We Offer",
+    "offerings": {
+      "automation": {
+        "title": "AI-Powered Business Automation",
+        "description": "We design intelligent workflows that automate repetitive tasks, reduce errors, and free up your team to focus on what matters most."
+      },
+      "assistants": {
+        "title": "AI Assistants for Teams & Customers",
+        "description": "We create AI chatbots to support your clients with answers and help your team with internal requests, reporting, and more through natural conversations."
+      },
+      "integration": {
+        "title": "Smart System Integration",
+        "description": "We connect your existing tools and platforms with automation logic, so everything works together seamlessly and efficiently — with less manual effort."
+      },
+      "strategy": {
+        "title": "Automation Strategy & Support",
+        "description": "From identifying high-impact areas to launching and maintaining AI solutions, we support your automation journey every step of the way."
+      }
+    }
+  },
+  "process": {
+    "title": "Our Simple, Smart, and Scalable Process",
+    "subtitle": "We design, develop, and implement automation tools that help you work smarter, not harder",
+    "steps": {
+      "analyzing": {
+        "title": "Smart Analyzing",
+        "description": "We assess your needs and identify AI solutions to streamline workflows and improve efficiency."
+      },
+      "development": {
+        "title": "AI Development",
+        "description": "Our team builds intelligent automation systems tailored to your business processes."
+      },
+      "integration": {
+        "title": "Seamless Integration",
+        "description": "We smoothly integrate AI solutions into your existing infrastructure with minimal disruption."
+      },
+      "optimization": {
+        "title": "Continuous Optimization",
+        "description": "We refine performance, analyze insights, and enhance automation for long-term growth."
+      }
+    }
+  },
+  "benefits": {
+    "title": {
+      "line1": "The Key Benefits of AI",
+      "line2": "For Your Business Growth"
+    },
+    "subtitle": "Discover how AI automation enhances efficiency, reduces costs, and drives business growth with smarter, faster processes.",
+    "items": {
+      "productivity": {
+        "title": "Increased Productivity",
+        "description": "Gain actionable insights with AI-driven analytics to improve decision-making and strategy."
+      },
+      "customerExperience": {
+        "title": "Better Customer Experience",
+        "description": "Personalized AI interactions improve response times, customer engagement, and overall satisfaction."
+      },
+      "availability": {
+        "title": "Availability 24/7",
+        "description": "AI-powered systems operate around the clock, ensuring seamless support and execution without downtime."
+      },
+      "costReduction": {
+        "title": "Cost Reduction",
+        "description": "AI automation minimizes manual work, cuts operational costs, and optimizes resource allocation."
+      },
+      "insights": {
+        "title": "Data-Driven Insights",
+        "description": "Leverage AI to analyze vast data sets, identify trends, and make smarter business decisions."
+      },
+      "scalability": {
+        "title": "Scalability & Growth",
+        "description": "AI adapts to your business needs, allowing you to scale efficiently without increasing workload."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Question",
+    "subtitle": "Here are some frequently asked questions with answers to clarify doubts.",
+    "items": [
+      {
+        "question": "What solutions does IntegrAI offer?",
+        "answer": "IntegrAI provides AI-powered analytics, automation, security, and real-time insights to streamline business operations."
+      },
+      {
+        "question": "How quickly can I get started?",
+        "answer": "You can get started within minutes. Our onboarding process is fast and easy."
+      },
+      {
+        "question": "Can I customize IntegrAI for my needs?",
+        "answer": "Absolutely! IntegrAI is designed to be flexible and customizable to fit your unique business requirements."
+      },
+      {
+        "question": "Do you provide support & updates?",
+        "answer": "Yes, we offer 24/7 support and regular updates to ensure your operations run smoothly."
+      },
+      {
+        "question": "What are the pricing options?",
+        "answer": "We offer a range of pricing plans to suit businesses of all sizes. Contact us for a custom quote."
+      }
+    ]
+  },
+  "cta": {
+    "title": {
+      "line1": "Let AI do the Work",
+      "line2": "So you can Scale Faster"
+    },
+    "subtitle": "Book a Call Today and Start Automating",
+    "button": "Book a free call"
+  },
+  "footer": {
+    "copyright": "©2025 IntegrAI. ©2025 All Rights Reserved."
+  },
+  "analyzingPills": [
+    { "label": "System check" },
+    { "label": "Process check" },
+    { "label": "Speed check" },
+    { "label": "Manual work" },
+    { "label": "Repetitive task" },
+    { "label": "Performance" }
+  ]
+}

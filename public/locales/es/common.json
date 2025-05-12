@@ -1,0 +1,148 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": {
+      "line1": "IA Innovadora",
+      "line2": "Soluciones para Crecer",
+      "line3": "Tu Negocio"
+    },
+    "subtitle": "Ayudamos a empresas en México a automatizar tareas repetitivas, conectar sistemas y trabajar de manera más inteligente con flujos de trabajo impulsados por IA diseñados especialmente para ti.",
+    "cta": "Hablemos"
+  },
+  "services": {
+    "heading": {
+      "line1": "Simplifica el Trabajo.",
+      "line2": "Aumenta la Eficiencia.",
+      "line3": "Crece más Inteligentemente."
+    },
+    "description": {
+      "p1": "IntegrAI construye automatizaciones e integraciones inteligentes que eliminan tareas repetitivas y desbloquean nuevos niveles de productividad.",
+      "p2": "Ya sea que dirijas una pequeña empresa o gestiones un equipo en crecimiento, diseñamos soluciones que se adaptan a tu flujo de trabajo, no al revés."
+    },
+    "learnMore": "Saber más",
+    "whatWeOffer": "Lo que Ofrecemos",
+    "offerings": {
+      "automation": {
+        "title": "Automatización Empresarial con IA",
+        "description": "Diseñamos flujos de trabajo inteligentes que automatizan tareas repetitivas, reducen errores y liberan a tu equipo para enfocarse en lo más importante."
+      },
+      "assistants": {
+        "title": "Asistentes IA para Equipos y Clientes",
+        "description": "Creamos chatbots de IA para apoyar a tus clientes con respuestas y ayudar a tu equipo con solicitudes internas, informes y más a través de conversaciones naturales."
+      },
+      "integration": {
+        "title": "Integración Inteligente de Sistemas",
+        "description": "Conectamos tus herramientas y plataformas existentes con lógica de automatización, para que todo funcione de manera fluida y eficiente, con menos esfuerzo manual."
+      },
+      "strategy": {
+        "title": "Estrategia y Soporte de Automatización",
+        "description": "Desde la identificación de áreas de alto impacto hasta el lanzamiento y mantenimiento de soluciones de IA, apoyamos tu viaje de automatización en cada paso del camino."
+      }
+    }
+  },
+  "process": {
+    "title": "Nuestro Proceso Simple, Inteligente y Escalable",
+    "subtitle": "Diseñamos, desarrollamos e implementamos herramientas de automatización que te ayudan a trabajar de manera más inteligente, no más dura",
+    "steps": {
+      "analyzing": {
+        "title": "Análisis Inteligente",
+        "description": "Evaluamos tus necesidades e identificamos soluciones de IA para optimizar flujos de trabajo y mejorar la eficiencia."
+      },
+      "development": {
+        "title": "Desarrollo de IA",
+        "description": "Nuestro equipo construye sistemas de automatización inteligentes adaptados a tus procesos empresariales."
+      },
+      "integration": {
+        "title": "Integración Sin Problemas",
+        "description": "Integramos soluciones de IA en tu infraestructura existente con mínima interrupción."
+      },
+      "optimization": {
+        "title": "Optimización Continua",
+        "description": "Refinamos el rendimiento, analizamos insights y mejoramos la automatización para un crecimiento a largo plazo."
+      }
+    }
+  },
+  "benefits": {
+    "title": {
+      "line1": "Los Beneficios Clave de la IA",
+      "line2": "Para el Crecimiento de tu Negocio"
+    },
+    "subtitle": "Descubre cómo la automatización con IA mejora la eficiencia, reduce costos e impulsa el crecimiento empresarial con procesos más inteligentes y rápidos.",
+    "items": {
+      "productivity": {
+        "title": "Mayor Productividad",
+        "description": "Obtén insights accionables con análisis impulsados por IA para mejorar la toma de decisiones y la estrategia."
+      },
+      "customerExperience": {
+        "title": "Mejor Experiencia del Cliente",
+        "description": "Las interacciones personalizadas con IA mejoran los tiempos de respuesta, el compromiso del cliente y la satisfacción general."
+      },
+      "availability": {
+        "title": "Disponibilidad 24/7",
+        "description": "Los sistemas impulsados por IA operan las 24 horas, garantizando soporte y ejecución sin interrupciones."
+      },
+      "costReduction": {
+        "title": "Reducción de Costos",
+        "description": "La automatización con IA minimiza el trabajo manual, reduce los costos operativos y optimiza la asignación de recursos."
+      },
+      "insights": {
+        "title": "Insights Basados en Datos",
+        "description": "Aprovecha la IA para analizar grandes conjuntos de datos, identificar tendencias y tomar decisiones empresariales más inteligentes."
+      },
+      "scalability": {
+        "title": "Escalabilidad y Crecimiento",
+        "description": "La IA se adapta a las necesidades de tu negocio, permitiéndote escalar eficientemente sin aumentar la carga de trabajo."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Aquí hay algunas preguntas frecuentes con respuestas para aclarar dudas.",
+    "items": [
+      {
+        "question": "¿Qué soluciones ofrece IntegrAI?",
+        "answer": "IntegrAI proporciona análisis impulsados por IA, automatización, seguridad e insights en tiempo real para optimizar las operaciones comerciales."
+      },
+      {
+        "question": "¿Qué tan rápido puedo empezar?",
+        "answer": "Puedes comenzar en minutos. Nuestro proceso de incorporación es rápido y sencillo."
+      },
+      {
+        "question": "¿Puedo personalizar IntegrAI según mis necesidades?",
+        "answer": "¡Absolutamente! IntegrAI está diseñado para ser flexible y personalizable según tus requisitos empresariales únicos."
+      },
+      {
+        "question": "¿Proporcionan soporte y actualizaciones?",
+        "answer": "Sí, ofrecemos soporte 24/7 y actualizaciones regulares para asegurar que tus operaciones funcionen sin problemas."
+      },
+      {
+        "question": "¿Cuáles son las opciones de precios?",
+        "answer": "Ofrecemos una variedad de planes de precios para adaptarnos a empresas de todos los tamaños. Contáctanos para obtener una cotización personalizada."
+      }
+    ]
+  },
+  "cta": {
+    "title": {
+      "line1": "Deja que la IA Haga el Trabajo",
+      "line2": "Para que Puedas Escalar más Rápido"
+    },
+    "subtitle": "Agenda una Llamada Hoy y Comienza a Automatizar",
+    "button": "Agenda una llamada gratis"
+  },
+  "footer": {
+    "copyright": "©2025 IntegrAI. ©2025 Todos los Derechos Reservados."
+  },
+  "analyzingPills": [
+    { "label": "Revisión del sistema" },
+    { "label": "Revisión de procesos" },
+    { "label": "Revisión de velocidad" },
+    { "label": "Trabajo manual" },
+    { "label": "Tarea repetitiva" },
+    { "label": "Rendimiento" }
+  ]
+}
