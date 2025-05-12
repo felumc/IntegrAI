@@ -351,32 +351,53 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id='contact' className="pt-32 pb-12" style={{background: '', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+      <section id='contact' className="pt-16 pb-12" style={{background: '', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
         <div className="container mx-auto px-4">
-          <div className="flex-[2] flex flex-col justify-center items-start">
-            <h2 className="text-7xl font-light mb-2 text-white">Let AI do the Work</h2>
-            <h2 className="text-7xl font-light mb-8 text-white">So you can Scale Faster</h2>
-            <p className="text-2xl font-light text-white mb-12">Book a Call Today and Start Automating</p>
-            <a
-              href="#"
-              onClick={e => {
-                e.preventDefault();
-                if (window.Calendly) {
-                  window.Calendly.initPopupWidget({ url: 'https://calendly.com/contact-integrai/30min' });
-                }
-              }}
-              className="bg-white text-[#0f172a] px-12 py-6 rounded-full font-normal hover:bg-blue-100 transition-all text-lg shadow-lg mb-12 inline-block text-center"
-            >
-              Book a free call
-            </a>
-            <span className="border-t w-full text-[24vw]  font-normal text-white opacity-100 leading-none whitespace-nowrap mt-8">
-              IntegrAI
-            </span>
+          <div className="flex flex-col md:flex-row gap-16 mb-12">
+            {/* Left: CTA Content */}
+            <div className="flex-[2] flex flex-col items-start">
+              <h2 className="text-7xl font-light mb-2 text-white">Let AI do the Work</h2>
+              <h2 className="text-7xl font-light mb-8 text-white">So you can Scale Faster</h2>
+              <p className="text-2xl font-light text-white mb-12">Book a Call Today and Start Automating</p>
+              <a
+                href="#"
+                onClick={e => {
+                  e.preventDefault();
+                  if (window.Calendly) {
+                    window.Calendly.initPopupWidget({ url: 'https://calendly.com/contact-integrai/30min' });
+                  }
+                }}
+                className="bg-white text-[#0f172a] px-12 py-6 rounded-full font-normal hover:bg-blue-100 transition-all text-lg shadow-lg inline-block text-center"
+              >
+                Book a free call
+              </a>
+            </div>
+            {/* Right: Contact Form */}
+            <div className="flex-1 flex flex-col justify-center items-center bg-white/10 rounded-3xl p-10 shadow-lg backdrop-blur-md mb-12">
+              <form className="w-full max-w-md space-y-4">
+                <div>
+                  <label htmlFor="name" className="block text-white text-lg font-light mb-2">Name</label>
+                  <input type="text" id="name" name="name" required className="w-full px-5 py-3 rounded-2xl bg-white/80 text-[#0f172a] font-light text-lg border border-white/30 focus:outline-none focus:ring-2 focus:ring-blue-300 transition" />
+                </div>
+                <div>
+                  <label htmlFor="email" className="block text-white text-lg font-light mb-2">Email</label>
+                  <input type="email" id="email" name="email" required className="w-full px-5 py-3 rounded-2xl bg-white/80 text-[#0f172a] font-light text-lg border border-white/30 focus:outline-none focus:ring-2 focus:ring-blue-300 transition" />
+                </div>
+                <div>
+                  <label htmlFor="message" className="block text-white text-lg font-light mb-2">Message</label>
+                  <textarea id="message" name="message" rows={3} required className="w-full px-5 py-3 rounded-2xl bg-white/80 text-[#0f172a] font-light text-lg border border-white/30 focus:outline-none focus:ring-2 focus:ring-blue-300 transition resize-none" />
+                </div>
+                <button type="submit" className="w-full bg-white text-[#0f172a] py-4 rounded-2xl font-normal text-lg shadow-md hover:bg-blue-100 transition-all border-2 border-white">Send Message</button>
+              </form>
+            </div>
           </div>
-      
-        </div><div className="mt-16 pt-6 text-center">
-      <span className="text-white text-sm">©2025 IntegrAI. ©2025 All Rights Reserved.</span>
-      </div>
+          <span className="border-t w-full text-[24vw] font-normal text-white opacity-100 leading-none whitespace-nowrap mt-8">
+                IntegrAI
+              </span>
+          <div className="mt-16 pt-6 text-center">
+            <span className="text-white text-sm">©2025 IntegrAI. ©2025 All Rights Reserved.</span>
+          </div>
+        </div>
       </section>
     </main>
   )
