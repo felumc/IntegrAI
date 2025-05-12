@@ -135,9 +135,14 @@ export default function Home() {
             We help companies in Mexico automate repetitive tasks, connect systems, and work smarter with AI-powered workflows built just for you.
             </p>
             <div className="flex gap-6 w-full md:w-auto justify-end">
-              <button className="bg-white text-[#0f172a] px-10 py-4 rounded-full font-normal text-lg shadow-md hover:bg-blue-100 transition-all border-2 border-white">
+              <a
+                href="https://calendly.com/contact-integrai/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-[#0f172a] px-10 py-4 rounded-full font-normal text-lg shadow-md hover:bg-blue-100 transition-all border-2 border-white inline-block text-center"
+              >
                 Let's talk
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -321,9 +326,14 @@ export default function Home() {
             <h2 className="text-7xl font-light mb-2 text-white">Let AI do the Work</h2>
             <h2 className="text-7xl font-light mb-8 text-white">So you can Scale Faster</h2>
             <p className="text-2xl font-light text-white mb-12">Book a Call Today and Start Automating</p>
-            <button className="bg-white text-[#0f172a] px-12 py-6 rounded-full font-normal hover:bg-blue-100 transition-all text-lg shadow-lg mb-12">
+            <a
+              href="https://calendly.com/contact-integrai/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#0f172a] px-12 py-6 rounded-full font-normal hover:bg-blue-100 transition-all text-lg shadow-lg mb-12 inline-block text-center"
+            >
               Book a free call
-            </button>
+            </a>
             <span className="border-t w-full text-[24vw]  font-normal text-white opacity-100 leading-none whitespace-nowrap mt-8">
               IntegrAI
             </span>
