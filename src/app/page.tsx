@@ -1,5 +1,5 @@
 'use client';
-import { FiZap, FiSmile, FiClock, FiDollarSign, FiBarChart2, FiTrendingUp, FiPlus, FiX, FiShield, FiRepeat, FiSettings, FiArrowRight, FiCheckCircle, FiRefreshCw, FiCode, FiServer, FiBarChart, FiEdit3, FiMessageCircle } from 'react-icons/fi';
+import { FiZap, FiSmile, FiClock, FiDollarSign, FiBarChart2, FiTrendingUp, FiChevronDown, FiChevronUp ,FiBarChart, FiEdit3, FiMessageCircle } from 'react-icons/fi';
 import Image from 'next/image'
 import { useState, useEffect, useRef } from 'react';
 
@@ -283,7 +283,7 @@ export default function Home() {
               {faqs.map((faq, idx) => {
                 const isOpen = openIndex === idx;
                 return isOpen ? (
-                  <div key={faq.question} className="rounded-2xl bg-gray-100 px-8 pt-8 pb-6 mb-2">
+                  <div key={faq.question} className="rounded-2xl bg-gray-100 px-4 pt-8 pb-6 mb-2">
                     <button
                       className="flex items-center justify-between w-full text-left focus:outline-none text-2xl font-light text-[#0f172a] mb-4"
                       onClick={() => toggleFAQ(idx)}
@@ -292,7 +292,7 @@ export default function Home() {
                     >
                       <span>{faq.question}</span>
                       <span className="ml-4 text-3xl text-gray-400 transition-transform" style={{transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)'}}>
-                        ▼
+                      <FiChevronDown />
                       </span>
                     </button>
                     <div id={`faq-content-${idx}`} className="text-lg text-gray-600 font-light">
@@ -300,18 +300,20 @@ export default function Home() {
                     </div>
                   </div>
                 ) : (
-                  <button
+                  <div className=' px-4'>
+                    <button
                     key={faq.question}
-                    className="flex items-center justify-between w-full text-left focus:outline-none text-2xl font-light text-[#0f172a] py-8 hover:bg-gray-50 transition"
+                    className="flex items-center justify-between w-full text-left focus:outline-none text-2xl font-light text-[#0f172a] py-8 transition"
                     onClick={() => toggleFAQ(idx)}
                     aria-expanded={isOpen}
                     aria-controls={`faq-content-${idx}`}
                   >
                     <span>{faq.question}</span>
                     <span className="ml-4 text-3xl text-gray-400 transition-transform">
-                      ▼
+                    <FiChevronDown />
                     </span>
                   </button>
+                  </div>
                 );
               })}
             </div>
