@@ -114,7 +114,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-integrai-warm font-sans">
       {/* Hero Section */}
-      <section className="pt-32 pb-32 min-h-[70vh] relative flex items-center" style={{background: '', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+      <section id='home' className="pt-32 pb-32 min-h-[70vh] relative flex items-center" style={{background: '', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
         <div className="absolute inset-0  pointer-events-none z-0" />
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center md:items-start justify-between gap-12 relative z-10">
           {/* Left: Title */}
@@ -144,7 +144,7 @@ export default function Home() {
       </section>
 
       {/* Strategic Partner Section */}
-      <section className="pt-32 pb-24 bg-white">
+      <section id='services' className="pt-32 pb-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-16 items-start mb-20">
             {/* Left: Large Heading */}
@@ -265,7 +265,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-32 bg-white">
+      <section id='about' className="py-32 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-16 items-start">
             {/* Left: Heading & Description */}
@@ -315,7 +315,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="pt-32 pb-12" style={{background: '', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+      <section id='contact' className="pt-32 pb-12" style={{background: '', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
         <div className="container mx-auto px-4">
           <div className="flex-[2] flex flex-col justify-center items-start">
             <h2 className="text-7xl font-light mb-2 text-white">Let AI do the Work</h2>
