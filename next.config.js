@@ -2,11 +2,7 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  i18n: {
-    locales: ['en', 'es'],
-    defaultLocale: 'es',
-    localeDetection: false,
-  },
+  output: 'export',
   trailingSlash: true,
 };
 
