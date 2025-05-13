@@ -366,7 +366,7 @@ export default function Home() {
             </div>
             <div className="bg-[#18181b] border border-gray-800 rounded-3xl p-10 shadow-lg hover:bg-[#23232a] transition-all relative overflow-hidden">
               <FiClock className="text-white text-3xl mb-6" />
-              <h3 className="text-4xl font-light text-white">{translations.benefits.items.availability.title}</h3>
+              <h3 className="text-4xl font-light mb-12 text-white">{translations.benefits.items.availability.title}</h3>
               <div className="flex-grow" />
               <p className="text-gray-300 font-light text-lg">{translations.benefits.items.availability.description}</p>
             </div>
