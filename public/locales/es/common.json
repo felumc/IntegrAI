@@ -132,7 +132,13 @@
       "line2": "Para que Puedas Escalar más Rápido"
     },
     "subtitle": "Agenda una Llamada Hoy y Comienza a Automatizar",
-    "button": "Agenda una llamada gratis"
+    "button": "Agenda una llamada gratis",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "button": "Enviar mensaje"
+    }
   },
   "footer": {
     "copyright": "©2025 IntegrAI. ©2025 Todos los Derechos Reservados."

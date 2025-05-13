@@ -16,7 +16,7 @@ interface Translations {
 export default function Navbar() {
     const pathname = usePathname();
     const params = useParams();
-    const locale = params.locale || 'en'; // default to 'en' if no locale
+    const locale = params.locale || 'es'; // default to 'en' if no locale
     const [translations, setTranslations] = useState<Translations | null>(null);
 
     useEffect(() => {
@@ -48,7 +48,7 @@ export default function Navbar() {
                         <a href="#services" className="text-white text-lg font-light hover:opacity-80 transition">{translations.navbar.services}</a>
                         <a href="#about" className="text-white text-lg font-light hover:opacity-80 transition">{translations.navbar.about}</a>
                         <a href="#contact" className="text-white text-lg font-light hover:opacity-80 transition">{translations.navbar.contact}</a>
-                        <LanguageSelector />
+                        {/* <LanguageSelector /> */}
                     </div>
                 </div>
             </div>

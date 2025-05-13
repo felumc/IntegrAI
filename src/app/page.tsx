@@ -5,8 +5,7 @@ declare global {
 }
 
 'use client';
-import { FiZap, FiSmile, FiClock, FiDollarSign, FiBarChart2, FiTrendingUp, FiChevronDown, FiChevronUp ,FiBarChart, FiEdit3, FiMessageCircle } from 'react-icons/fi';
-import Image from 'next/image'
+import { FiZap, FiSmile, FiClock, FiDollarSign, FiBarChart2, FiTrendingUp, FiChevronDown ,FiBarChart, FiEdit3, FiMessageCircle } from 'react-icons/fi';
 import { useState, useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 
@@ -121,6 +120,12 @@ interface Translations {
     };
     subtitle: string;
     button: string;
+    form: {
+      name: string;
+      email: string;
+      message: string;
+      button: string;
+    };
   };
   footer: {
     copyright: string;
@@ -130,37 +135,6 @@ interface Translations {
   }>;
 }
 
-const faqs = [
-  {
-    question: 'What solutions does IntegrAI offer?',
-    answer: 'IntegrAI provides AI-powered analytics, automation, security, and real-time insights to streamline business operations.'
-  },
-  {
-    question: 'How quickly can I get started?',
-    answer: 'You can get started within minutes. Our onboarding process is fast and easy.'
-  },
-  {
-    question: 'Can I customize IntegrAI for my needs?',
-    answer: 'Absolutely! IntegrAI is designed to be flexible and customizable to fit your unique business requirements.'
-  },
-  {
-    question: 'Do you provide support & updates?',
-    answer: 'Yes, we offer 24/7 support and regular updates to ensure your operations run smoothly.'
-  },
-  {
-    question: 'What are the pricing options?',
-    answer: 'We offer a range of pricing plans to suit businesses of all sizes. Contact us for a custom quote.'
-  }
-];
-
-const analyzingPills = [
-  { label: 'System check', color: 'bg-purple-200 text-purple-800' },
-  { label: 'Process check', color: 'bg-gray-200 text-gray-800' },
-  { label: 'Speed check', color: 'bg-blue-200 text-blue-800' },
-  { label: 'Manual work', color: 'bg-yellow-100 text-yellow-800' },
-  { label: 'Repetitive task', color: 'bg-green-100 text-green-800' },
-  { label: 'Performance', color: 'bg-pink-100 text-pink-800' },
-];
 
 // Add this helper for animation
 function useStaggeredFadeIn(count: number) {
@@ -177,36 +151,11 @@ function useStaggeredFadeIn(count: number) {
   return refs;
 }
 
-function AnimatedPills() {
-  const [offset, setOffset] = useState(0);
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setOffset((o) => (o + 1) % analyzingPills.length);
-    }, 1200);
-    return () => clearInterval(interval);
-  }, []);
-  // Show 3 pills at a time, looped
-  const visible = [0, 1, 2].map(i => analyzingPills[(i + offset) % analyzingPills.length]);
-  return (
-    <div className="relative w-full flex items-center h-12 overflow-hidden">
-      {/* Gradient fade left */}
-      <div className="absolute left-0 top-0 h-full w-8 z-10 bg-gradient-to-r from-[#f3f4f6] to-transparent pointer-events-none" />
-      {/* Gradient fade right */}
-      <div className="absolute right-0 top-0 h-full w-8 z-10 bg-gradient-to-l from-[#f3f4f6] to-transparent pointer-events-none" />
-      <div className="flex gap-4 w-full justify-center transition-all duration-700">
-        {visible.map((pill, i) => (
-          <span key={pill.label} className={`px-5 py-2 rounded-full font-semibold shadow-sm text-base ${pill.color} transition-all`}>{pill.label}</span>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 export default function Home() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const [translations, setTranslations] = useState<Translations | null>(null);
   const pathname = usePathname();
-  const locale = pathname?.split('/')[1] || 'en';
+  const locale = pathname?.split('/')[1] || 'es';
 
   useEffect(() => {
     async function loadTranslations() {
@@ -254,8 +203,6 @@ export default function Home() {
       desc: translations.process.steps.optimization.description
     },
   ] : [];
-
-  const processRefs = useStaggeredFadeIn(processSteps.length);
 
   useEffect(() => {
     // Only add script if it hasn't been added yet
@@ -503,9 +450,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-16 mb-12">
             {/* Left: CTA Content */}
             <div className="flex-[2] flex flex-col items-start">
-              <h2 className="text-7xl font-light mb-2 text-white">Let AI do the Work</h2>
-              <h2 className="text-7xl font-light mb-8 text-white">So you can Scale Faster</h2>
-              <p className="text-2xl font-light text-white mb-12">Book a Call Today and Start Automating</p>
+              <h2 className="text-7xl font-light mb-2 text-white">{translations.cta.title.line1}</h2>
+              <h2 className="text-7xl font-light mb-8 text-white">{translations.cta.title.line2}</h2>
+              <p className="text-2xl font-light text-white mb-12">{translations.cta.subtitle}</p>
               <a
                 href="#"
                 onClick={e => {
@@ -516,25 +463,25 @@ export default function Home() {
                 }}
                 className="bg-white text-[#0f172a] px-12 py-6 rounded-full font-normal hover:bg-blue-100 transition-all text-lg shadow-lg inline-block text-center"
               >
-                Book a free call
+                {translations.cta.button}
               </a>
             </div>
             {/* Right: Contact Form */}
             <div className="flex-1 flex flex-col justify-center items-center bg-white/10 rounded-3xl p-10 shadow-lg backdrop-blur-md mb-12">
               <form className="w-full max-w-md space-y-4">
                 <div>
-                  <label htmlFor="name" className="block text-white text-lg font-light mb-2">Name</label>
+                  <label htmlFor="name" className="block text-white text-lg font-light mb-2">{translations.cta.form.name}</label>
                   <input type="text" id="name" name="name" required className="w-full px-5 py-3 rounded-2xl bg-white/80 text-[#0f172a] font-light text-lg border border-white/30 focus:outline-none focus:ring-2 focus:ring-blue-300 transition" />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-white text-lg font-light mb-2">Email</label>
+                  <label htmlFor="email" className="block text-white text-lg font-light mb-2">{translations.cta.form.email}</label>
                   <input type="email" id="email" name="email" required className="w-full px-5 py-3 rounded-2xl bg-white/80 text-[#0f172a] font-light text-lg border border-white/30 focus:outline-none focus:ring-2 focus:ring-blue-300 transition" />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-white text-lg font-light mb-2">Message</label>
+                  <label htmlFor="message" className="block text-white text-lg font-light mb-2">{translations.cta.form.message}</label>
                   <textarea id="message" name="message" rows={3} required className="w-full px-5 py-3 rounded-2xl bg-white/80 text-[#0f172a] font-light text-lg border border-white/30 focus:outline-none focus:ring-2 focus:ring-blue-300 transition resize-none" />
                 </div>
-                <button type="submit" className="w-full bg-white text-[#0f172a] py-4 rounded-2xl font-normal text-lg shadow-md hover:bg-blue-100 transition-all border-2 border-white">Send Message</button>
+                <button type="submit" className="w-full bg-white text-[#0f172a] py-4 rounded-2xl font-normal text-lg shadow-md hover:bg-blue-100 transition-all border-2 border-white">{translations.cta.form.button}</button>
               </form>
             </div>
           </div>
@@ -542,11 +489,8 @@ export default function Home() {
                 IntegrAI
               </span>
           <div className="mt-16 pt-6 text-center">
-            <span className="text-white text-sm">©2025 IntegrAI. ©2025 All Rights Reserved.</span>
+            <span className="text-white text-sm">{translations.footer.copyright}</span>
           </div>
-        </div>
-        <div className="mt-16 pt-6 text-center">
-          <span className="text-white text-sm">{translations.footer.copyright}</span>
         </div>
       </section>
     </main>

@@ -132,7 +132,13 @@
       "line2": "So you can Scale Faster"
     },
     "subtitle": "Book a Call Today and Start Automating",
-    "button": "Book a free call"
+    "button": "Book a free call",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "button": "Send Message"
+    }
   },
   "footer": {
     "copyright": "©2025 IntegrAI. ©2025 All Rights Reserved."
