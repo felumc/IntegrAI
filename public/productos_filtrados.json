@@ -1,0 +1,402 @@
+[
+  {
+    "IDProducto": "2349",
+    "NumArt": "2810",
+    "NomArt": "TRAMPA HULE UNIV. C/ESPIGA C/TCA C/TUBO 15CM FLEXIMATIC",
+    "Marca": "FLEXIMATIC",
+    "Linea": "INSTALACION Y REPARACION DE LAVABOS Y FR",
+    "Descripcion": "Trampa Hule Univ. C/Espiga C/Tca C/Tubo 15Cm Fleximatic.",
+    "Existencias": 10,
+    "PrecioFinal": 74.27
+  },
+  {
+    "IDProducto": "15549",
+    "NumArt": "REP-ACA-6X",
+    "NomArt": "SP-REPUESTO P/SEGUETAS ACA-6X TRUPER (10229)",
+    "Marca": "TRUPER",
+    "Linea": "SEGUETAS",
+    "Descripcion": "Repuesto P/Seguetas Aca-6X Truper (10229). Herramienta para cortes en madera o metal.",
+    "Existencias": 0,
+    "PrecioFinal": 77.36
+  },
+  {
+    "IDProducto": "4985",
+    "NumArt": "AH.100-6270W",
+    "NomArt": "TIMBRE ELECTRONICO BLANCO 110 VCA 60HZ ROYER 100",
+    "Marca": "ROYER 100",
+    "Linea": "TIMBRES Y ZUMBADORES",
+    "Descripcion": "Timbre Electronico Blanco 110 Vca 60Hz Royer 100. Utilizado para señalización o llamada en accesos.",
+    "Existencias": 2,
+    "PrecioFinal": 151.69
+  },
+  {
+    "IDProducto": "10590",
+    "NumArt": "HE.282-35-CHLI",
+    "NomArt": "COLADERA PARA BAÑO UNA BOCA CON REJILLA CUADRADA LISA (CON SELLO HCO)",
+    "Marca": "LLAVES Y ACCESORIOS",
+    "Linea": "COLADERAS Y ACCESORIOS",
+    "Descripcion": "Coladera Para Baño Una Boca Con Rejilla Cuadrada Lisa (Con Sello Hco). Se utiliza para drenar el agua en áreas como baños o cocinas.",
+    "Existencias": 0,
+    "PrecioFinal": 4562.93
+  },
+  {
+    "IDProducto": "10143",
+    "NumArt": "FU0638",
+    "NomArt": "XXXXXCABEL RCA AUDIO DOS MACHOS A DOS MACHOS RCA 0.9M TOOLCRAFT*",
+    "Marca": "TOOLCRAFT",
+    "Linea": "CONDUCTORES",
+    "Descripcion": "Cabel Rca Audio Dos Machos A Dos Machos Rca 0.9M Toolcraft*.",
+    "Existencias": 0,
+    "PrecioFinal": 2.91
+  },
+  {
+    "IDProducto": "15028",
+    "NumArt": "PU01009",
+    "NomArt": "XXXXXPUERTA LAMINADA COLONIAL 1/2 LUNA 90 X 213 MCA",
+    "Marca": "PUERTAS",
+    "Linea": "PUERTAS",
+    "Descripcion": "Puerta Laminada Colonial 1/2 Luna 90 X 213 Mca. Ideal para instalación en entradas o interiores.",
+    "Existencias": 0,
+    "PrecioFinal": 2246.67
+  },
+  {
+    "IDProducto": "15047",
+    "NumArt": "PUERTA-LISA",
+    "NomArt": "XXXXXPUERTA EUCALISA 90 X 213 MCA/PF",
+    "Marca": "PUERTAS",
+    "Linea": "PUERTAS",
+    "Descripcion": "Puerta Eucalisa 90 X 213 Mca/Pf. Ideal para instalación en entradas o interiores.",
+    "Existencias": 0,
+    "PrecioFinal": 1431.39
+  },
+  {
+    "IDProducto": "20045",
+    "NumArt": "V-100X100",
+    "NomArt": "SP-VENTANA A.BCO 1.00X1.00 C.CLARO S/MOSQUITERO C/PROTECCION MCA",
+    "Marca": "VENTANAS",
+    "Linea": "VENTANAS",
+    "Descripcion": "Ventana A.Bco 1.00X1.00 C.Claro S/Mosquitero C/Proteccion Mca. Se instala en muros para permitir iluminación y ventilación.",
+    "Existencias": 0,
+    "PrecioFinal": 1462.82
+  },
+  {
+    "IDProducto": "5967",
+    "NumArt": "BT.QZ4281",
+    "NomArt": "XXXXXTOMA RCA 2 CANALES QUINZIÑO MX BTICINO",
+    "Marca": "RESIDENCIAL-QUINZIÑO MX-QUINZIÑO MX",
+    "Linea": "TOMAS RJ45",
+    "Descripcion": "Toma Rca 2 Canales Quinziño Mx Bticino. Permite la conexión de dispositivos electrónicos.",
+    "Existencias": 0,
+    "PrecioFinal": 189.06
+  },
+  {
+    "IDProducto": "9474",
+    "NumArt": "EUCMIX90213",
+    "NomArt": "XXXXXPUERTA LAMINADA EXT MIXTA 90 X 213 MCA",
+    "Marca": "PUERTAS",
+    "Linea": "PUERTAS",
+    "Descripcion": "Puerta Laminada Ext Mixta 90 X 213 Mca. Ideal para instalación en entradas o interiores.",
+    "Existencias": 0,
+    "PrecioFinal": 1251.46
+  },
+  {
+    "IDProducto": "2352",
+    "NumArt": "282-35-CHL",
+    "NomArt": "SP-COLADERA PARA BAÑO UNA BOCA CON REJILLA CUAD LISA (CON SELLO HCO)",
+    "Marca": "LLAVES Y ACCESORIOS",
+    "Linea": "COLADERAS Y ACCESORIOS",
+    "Descripcion": "Coladera Para Baño Una Boca Con Rejilla Cuad Lisa (Con Sello Hco). Se utiliza para drenar el agua en áreas como baños o cocinas.",
+    "Existencias": 2,
+    "PrecioFinal": 4562.93
+  },
+  {
+    "IDProducto": "20173",
+    "NumArt": "VENACEVEA008",
+    "NomArt": "XXXXXVENTANA A.BCO 40X.60 C.CLARO S/MOSQUITERO S/PROTECCION MCA",
+    "Marca": "VENTANAS",
+    "Linea": "VENTANAS",
+    "Descripcion": "Ventana A.Bco 40X.60 C.Claro S/Mosquitero S/Proteccion Mca. Se instala en muros para permitir iluminación y ventilación.",
+    "Existencias": 0,
+    "PrecioFinal": 510.68
+  },
+  {
+    "IDProducto": "736",
+    "NumArt": "101-010",
+    "NomArt": "SP-VALVULA CHECK CIERRE AMORTIGUADO 3 (76MM) MCA. PICSA",
+    "Marca": "FO.FO.",
+    "Linea": "SISTEMAS DE FO.FO.",
+    "Descripcion": "Valvula Check Cierre Amortiguado 3 (76Mm) Mca. Picsa. Sirve para controlar el flujo de líquidos en tuberías.",
+    "Existencias": 0,
+    "PrecioFinal": 8502.22
+  },
+  {
+    "IDProducto": "9155",
+    "NumArt": "EAN.FEUR5",
+    "NomArt": "SP-FUSIBLE TIPO EUROPEO DE 5 AMP Y 250 VCA STEREN",
+    "Marca": "STEREN",
+    "Linea": "FUSIBLES Y LISTONES",
+    "Descripcion": "Fusible Tipo Europeo De 5 Amp Y 250 Vca Steren. Protege los dispositivos eléctricos de sobrecargas de corriente.",
+    "Existencias": 25,
+    "PrecioFinal": 1.79
+  },
+  {
+    "IDProducto": "11137",
+    "NumArt": "HK.1722945",
+    "NomArt": "XXXXXIMPERMEABILIZANTE SBS FESTERMIP 4.0MM POLIESTER TCA FESTER*",
+    "Marca": "XXXFESTER",
+    "Linea": "IMPERMEABILIZANTES",
+    "Descripcion": "Impermeabilizante Sbs Festermip 4.0Mm Poliester Tca Fester*. Protege superficies contra la humedad.",
+    "Existencias": 0,
+    "PrecioFinal": 3819.31
+  },
+  {
+    "IDProducto": "20175",
+    "NumArt": "VENACEVEA015",
+    "NomArt": "XXXXXVENTANA A.BCO 1.20X1.20 C.CLARO S/MOSQUITERO S/PROTECCION MCA",
+    "Marca": "VENTANAS",
+    "Linea": "VENTANAS",
+    "Descripcion": "Ventana A.Bco 1.20X1.20 C.Claro S/Mosquitero S/Proteccion Mca. Se instala en muros para permitir iluminación y ventilación.",
+    "Existencias": 0,
+    "PrecioFinal": 1558.16
+  },
+  {
+    "IDProducto": "9154",
+    "NumArt": "EAN.FEUR2",
+    "NomArt": "SP-FUSIBLE TIPO EUROPEO DE 2 AMP Y 250 VCA STEREN",
+    "Marca": "STEREN",
+    "Linea": "FUSIBLES Y LISTONES",
+    "Descripcion": "Fusible Tipo Europeo De 2 Amp Y 250 Vca Steren. Protege los dispositivos eléctricos de sobrecargas de corriente.",
+    "Existencias": 24,
+    "PrecioFinal": 1.79
+  },
+  {
+    "IDProducto": "9153",
+    "NumArt": "EAN.FEUR10",
+    "NomArt": "SP-FUSIBLE TIPO EUROPEO DE 10 AMP Y 250 VCA STEREN",
+    "Marca": "STEREN",
+    "Linea": "FUSIBLES Y LISTONES",
+    "Descripcion": "Fusible Tipo Europeo De 10 Amp Y 250 Vca Steren. Protege los dispositivos eléctricos de sobrecargas de corriente.",
+    "Existencias": 35,
+    "PrecioFinal": 1.79
+  },
+  {
+    "IDProducto": "14197",
+    "NumArt": "PCAY",
+    "NomArt": "SP-PALA CARBONERA MCA TRUPER (17158)",
+    "Marca": "TRUPER",
+    "Linea": "PALAS, COAS Y AZADONES",
+    "Descripcion": "Pala Carbonera Mca Truper (17158). Herramienta de mano para excavar o mover materiales.",
+    "Existencias": 0,
+    "PrecioFinal": 273.32
+  },
+  {
+    "IDProducto": "20052",
+    "NumArt": "V-60X60C",
+    "NomArt": "XXXXXVENTANA A.BCO 0.60X0.60 C.CLARO S/MOSQUITERO C/PROTECCION MCA",
+    "Marca": "VENTANAS",
+    "Linea": "VENTANAS",
+    "Descripcion": "Ventana A.Bco 0.60X0.60 C.Claro S/Mosquitero C/Proteccion Mca. Se instala en muros para permitir iluminación y ventilación.",
+    "Existencias": 0,
+    "PrecioFinal": 623.46
+  },
+  {
+    "IDProducto": "2613",
+    "NumArt": "321 DC I ABG",
+    "NomArt": "CERRADURA ELECTRICA 321 DCB C/BOTON IZQ BEIGE CAJA PHILLIPS",
+    "Marca": "PHILLIPS - CERRADURAS ELECTRICAS",
+    "Linea": "CERRADURAS ELECTRICAS",
+    "Descripcion": "Cerradura Electrica 321 Dcb C/Boton Izq Beige Caja Phillips. Se emplea para asegurar puertas.",
+    "Existencias": 3,
+    "PrecioFinal": 958.83
+  },
+  {
+    "IDProducto": "10590",
+    "NumArt": "HE.282-35-CHLI",
+    "NomArt": "COLADERA PARA BAÑO UNA BOCA CON REJILLA CUADRADA LISA (CON SELLO HCO)",
+    "Marca": "LLAVES Y ACCESORIOS",
+    "Linea": "COLADERAS Y ACCESORIOS",
+    "Descripcion": "Coladera Para Baño Una Boca Con Rejilla Cuadrada Lisa (Con Sello Hco). Se utiliza para drenar el agua en áreas como baños o cocinas.",
+    "Existencias": 0,
+    "PrecioFinal": 4562.93
+  },
+  {
+    "IDProducto": "2614",
+    "NumArt": "321 DCB D ABG",
+    "NomArt": "CERRADURA ELECTRICA 321 DCB C/BOTON DER BEIGE CAJA PHILLIPS",
+    "Marca": "PHILLIPS - CERRADURAS ELECTRICAS",
+    "Linea": "CERRADURAS ELECTRICAS",
+    "Descripcion": "Cerradura Electrica 321 Dcb C/Boton Der Beige Caja Phillips. Se emplea para asegurar puertas.",
+    "Existencias": 1,
+    "PrecioFinal": 899.79
+  },
+  {
+    "IDProducto": "75381",
+    "NumArt": "IU.217866",
+    "NomArt": "CONTACTO SENCILLO BLANCO 15A 127V HSB-45B98T SCUDETTO PRIME IUSA",
+    "Marca": "ELECTRICOS - 4EA SCUDETTO",
+    "Linea": "CONTACTOS",
+    "Descripcion": "Contacto Sencillo Blanco 15A 127V Hsb-45B98T Scudetto Prime Iusa. Permite conectar aparatos eléctricos a la red.",
+    "Existencias": 0,
+    "PrecioFinal": 20.07
+  },
+  {
+    "IDProducto": "75382",
+    "NumArt": "IU.217868",
+    "NomArt": "APAGADOR SENCILLO  BLANCO HSB-45B01  15A 127-227V SCUDETTO PRIME IUSA",
+    "Marca": "ELECTRICOS - 4EA SCUDETTO",
+    "Linea": "APAGADORES",
+    "Descripcion": "Apagador Sencillo  Blanco Hsb-45B01  15A 127-227V Scudetto Prime Iusa. Permite encender o apagar circuitos eléctricos.",
+    "Existencias": 0,
+    "PrecioFinal": 25.32
+  },
+  {
+    "IDProducto": "2352",
+    "NumArt": "282-35-CHL",
+    "NomArt": "SP-COLADERA PARA BAÑO UNA BOCA CON REJILLA CUAD LISA (CON SELLO HCO)",
+    "Marca": "LLAVES Y ACCESORIOS",
+    "Linea": "COLADERAS Y ACCESORIOS",
+    "Descripcion": "Coladera Para Baño Una Boca Con Rejilla Cuad Lisa (Con Sello Hco). Se utiliza para drenar el agua en áreas como baños o cocinas.",
+    "Existencias": 2,
+    "PrecioFinal": 4562.93
+  },
+  {
+    "IDProducto": "75383",
+    "NumArt": "IU.217869",
+    "NomArt": "APAGADOR ESCALERA BLANCO HSB-45B02 15A 127-227V SCUDETTO PRIME IUSA",
+    "Marca": "ELECTRICOS - 4EA SCUDETTO",
+    "Linea": "APAGADORES",
+    "Descripcion": "Apagador Escalera Blanco Hsb-45B02 15A 127-227V Scudetto Prime Iusa. Permite encender o apagar circuitos eléctricos.",
+    "Existencias": 0,
+    "PrecioFinal": 30.96
+  },
+  {
+    "IDProducto": "2093",
+    "NumArt": "22120",
+    "NomArt": "SP-LIMA MEDIA CAÑA BASTARDA HRB-6 150MM NICHOLSON",
+    "Marca": "COOPER TOOLS",
+    "Linea": "LIMAS",
+    "Descripcion": "Lima Media Caña Bastarda Hrb-6 150Mm Nicholson. Usada para desgastar o dar forma a materiales.",
+    "Existencias": 9,
+    "PrecioFinal": 66.59
+  },
+  {
+    "IDProducto": "2095",
+    "NumArt": "22135",
+    "NomArt": "SP-LIMA MEDIA CAÑA BASTARDA HRB-12 300MM NICHOLSON",
+    "Marca": "COOPER TOOLS",
+    "Linea": "LIMAS",
+    "Descripcion": "Lima Media Caña Bastarda Hrb-12 300Mm Nicholson. Usada para desgastar o dar forma a materiales.",
+    "Existencias": 11,
+    "PrecioFinal": 160.59
+  },
+  {
+    "IDProducto": "15291",
+    "NumArt": "RB.2608630033",
+    "NomArt": "SP-SEGUETA T111C HCS MADERA (5 PZAS) BOSCH",
+    "Marca": "ACCESORIOS",
+    "Linea": "SEGUETAS",
+    "Descripcion": "Segueta T111C Hcs Madera (5 Pzas) Bosch. Herramienta para cortes en madera o metal.",
+    "Existencias": 0,
+    "PrecioFinal": 88.87
+  },
+  {
+    "IDProducto": "2094",
+    "NumArt": "22125",
+    "NomArt": "SP-LIMA MEDIA CAÑA BASTARDA HRB-8 200MM NICHOLSON",
+    "Marca": "COOPER TOOLS",
+    "Linea": "LIMAS",
+    "Descripcion": "Lima Media Caña Bastarda Hrb-8 200Mm Nicholson. Usada para desgastar o dar forma a materiales.",
+    "Existencias": 1,
+    "PrecioFinal": 89.36
+  },
+  {
+    "IDProducto": "75384",
+    "NumArt": "IU.217867",
+    "NomArt": "BOTON TIMBRE 15A 127V BLANCO HSB-45B05 SCUDETTO PRIME IUSA",
+    "Marca": "ELECTRICOS - 4EA SCUDETTO",
+    "Linea": "BOTON TIMBRE",
+    "Descripcion": "Boton Timbre 15A 127V Blanco Hsb-45B05 Scudetto Prime Iusa. Utilizado para señalización o llamada en accesos.",
+    "Existencias": 0,
+    "PrecioFinal": 26.4
+  },
+  {
+    "IDProducto": "4253",
+    "NumArt": "86082",
+    "NomArt": "SP-FOCO ADIT POWERBALL HCI-T 150W G12 42K T6 C102 15,000H OSRAM",
+    "Marca": "OSRAM",
+    "Linea": "FOCOS HID",
+    "Descripcion": "Foco Adit Powerball Hci-T 150W G12 42K T6 C102 15,000H Osram. Ilumina espacios interiores o exteriores.",
+    "Existencias": 4,
+    "PrecioFinal": 521.98
+  },
+  {
+    "IDProducto": "13294",
+    "NumArt": "MG-400",
+    "NomArt": "SP-MEGAFONO HOMBRO C/MICROF TIPO CB Y SIRENA STEREN",
+    "Marca": "STEREN",
+    "Linea": "BOCINAS Y MEGAFONOS",
+    "Descripcion": "Megafono Hombro C/Microf Tipo Cb Y Sirena Steren. Sirve para amplificar la voz en espacios abiertos.",
+    "Existencias": 0,
+    "PrecioFinal": 1094.09
+  },
+  {
+    "IDProducto": "75386",
+    "NumArt": "IU.217870",
+    "NomArt": "MODULO CIEGO BLANCO BRILLANTE HSB-45B13 SCUDETTO PRIME IUSA",
+    "Marca": "ELECTRICOS - 4EA SCUDETTO",
+    "Linea": "MODULOS CIEGOS",
+    "Descripcion": "Modulo Ciego Blanco Brillante Hsb-45B13 Scudetto Prime Iusa. Cubre espacios vacíos en placas eléctricas.",
+    "Existencias": 0,
+    "PrecioFinal": 11.49
+  },
+  {
+    "IDProducto": "13942",
+    "NumArt": "OSR.86083",
+    "NomArt": "SP-FOCO ADIT POWERBALL HCI-T 70W G12 42K T6 C98 12,000H OSRAM",
+    "Marca": "OSRAM",
+    "Linea": "FOCOS HID",
+    "Descripcion": "Foco Adit Powerball Hci-T 70W G12 42K T6 C98 12,000H Osram. Ilumina espacios interiores o exteriores.",
+    "Existencias": 0,
+    "PrecioFinal": 558.43
+  },
+  {
+    "IDProducto": "9031",
+    "NumArt": "E-34",
+    "NomArt": "MEZCLADORA MONOMANDO FREGADERO CROMO HEL",
+    "Marca": "LLAVES Y ACCESORIOS",
+    "Linea": "MEZCLADORAS Y MANERALES",
+    "Descripcion": "Mezcladora Monomando Fregadero Cromo Hel. Permite mezclar agua fría y caliente en fregaderos o lavabos.",
+    "Existencias": 0,
+    "PrecioFinal": 3616.38
+  },
+  {
+    "IDProducto": "9038",
+    "NumArt": "E-46",
+    "NomArt": "MONOMANDO REGADERA SIN DESVIADOR NUVA HE",
+    "Marca": "LLAVES Y ACCESORIOS",
+    "Linea": "MONOMANDOS",
+    "Descripcion": "Monomando Regadera Sin Desviador Nuva He.",
+    "Existencias": 0,
+    "PrecioFinal": 4866.38
+  },
+  {
+    "IDProducto": "8172",
+    "NumArt": "D_ES-6500",
+    "NomArt": "XXXXXLUM SUB  ESPEJO II G C/FOTOC C/F HEL-65W IP64 127V TECNO LITE",
+    "Marca": "LUMINARIOS",
+    "Linea": "DE PARED Y MURO EXTERIOR",
+    "Descripcion": "Lum Sub  Espejo Ii G C/Fotoc C/F Hel-65W Ip64 127V Tecno Lite.",
+    "Existencias": 0,
+    "PrecioFinal": 553.15
+  },
+  {
+    "IDProducto": "17371",
+    "NumArt": "T.ES-6530",
+    "NomArt": "XXXXXLUM REFLECTOR VARO NEGRO C/F HEL-65W IP65 127V TECNO LITE",
+    "Marca": "LUMINARIOS",
+    "Linea": "REFLECTORES",
+    "Descripcion": "Lum Reflector Varo Negro C/F Hel-65W Ip65 127V Tecno Lite.",
+    "Existencias": 0,
+    "PrecioFinal": 574.24
+  }
+]
