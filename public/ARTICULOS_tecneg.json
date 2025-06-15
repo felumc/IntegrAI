@@ -1,5 +1,4 @@
-{
-"ARTICULOS": [
+[
 	{
 		"ARTICULO_ID" : 3387,
 		"NOMBRE" : "Pala (lampa) cuchara, Perú"
@@ -400,4 +399,4 @@
 		"ARTICULO_ID" : 3981,
 		"NOMBRE" : "FOCO AHORRADOR STANDARD 7W"
 	}
-]}
+]
