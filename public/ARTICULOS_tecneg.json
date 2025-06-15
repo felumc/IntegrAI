@@ -1,0 +1,403 @@
+{
+"ARTICULOS": [
+	{
+		"ARTICULO_ID" : 3387,
+		"NOMBRE" : "Pala (lampa) cuchara, Perú"
+	},
+	{
+		"ARTICULO_ID" : 3393,
+		"NOMBRE" : "ABRAZADERA DE 1-1-5/8 INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3399,
+		"NOMBRE" : "ABRAZADERA DE 3/4-1-1/8 INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3405,
+		"NOMBRE" : "Abrazadera 20 de acero inoxidable, blister con 2 pzas"
+	},
+	{
+		"ARTICULO_ID" : 3411,
+		"NOMBRE" : "Abrazadera 10 de acero inoxidable, blister con 2 pzas"
+	},
+	{
+		"ARTICULO_ID" : 3417,
+		"NOMBRE" : "Pala (lampa) recta, Perú"
+	},
+	{
+		"ARTICULO_ID" : 3423,
+		"NOMBRE" : "ABRAZADERA DE 3/8-7/8 INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3429,
+		"NOMBRE" : "Abrazadera 4 de acero inoxidable, blister con 4 pzas"
+	},
+	{
+		"ARTICULO_ID" : 3435,
+		"NOMBRE" : "Juego dados, punta torx, 3/8', 9 piezas"
+	},
+	{
+		"ARTICULO_ID" : 3441,
+		"NOMBRE" : "Juego dados, punta torx,1/2', 10 piezas"
+	},
+	{
+		"ARTICULO_ID" : 3447,
+		"NOMBRE" : "Juego dados torx hembra, 1/4', 7 piezas"
+	},
+	{
+		"ARTICULO_ID" : 3453,
+		"NOMBRE" : "Pala espadón, 16\", mango fibra de vidrio"
+	},
+	{
+		"ARTICULO_ID" : 3459,
+		"NOMBRE" : "Pala cuadrada, Europeo, cabeza #4, fibra vidrio"
+	},
+	{
+		"ARTICULO_ID" : 3465,
+		"NOMBRE" : "ABRAZADERA DE 1/2-3/4 INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3471,
+		"NOMBRE" : "Abrazadera mini-6 de acero inoxidable, blister con 4 pzas"
+	},
+	{
+		"ARTICULO_ID" : 3477,
+		"NOMBRE" : "Abrazadera mini-4 de acero inoxidable, blister con 4 pzas"
+	},
+	{
+		"ARTICULO_ID" : 3483,
+		"NOMBRE" : "Organizador 9' con 11 compartimentos"
+	},
+	{
+		"ARTICULO_ID" : 3489,
+		"NOMBRE" : "Organizador 10' con 13 compartimentos"
+	},
+	{
+		"ARTICULO_ID" : 3495,
+		"NOMBRE" : "Charola organizadora, plástica, 20'"
+	},
+	{
+		"ARTICULO_ID" : 3501,
+		"NOMBRE" : "Pala azada, redonda, # 5"
+	},
+	{
+		"ARTICULO_ID" : 3507,
+		"NOMBRE" : "Pala azada, cuadrada, # 5"
+	},
+	{
+		"ARTICULO_ID" : 3513,
+		"NOMBRE" : "ABRAZADERA DE 3/8-5/8 INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3519,
+		"NOMBRE" : "ABRAZADERA MINI-4 10-16MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3525,
+		"NOMBRE" : "ABRAZADERA MINI-6 13-19MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3531,
+		"NOMBRE" : "ABRAZADERA NO.4 10-16MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3537,
+		"NOMBRE" : "ABRAZADERA NO.6 13-19MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3543,
+		"NOMBRE" : "ABRAZADERA NO.8 16-23MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3549,
+		"NOMBRE" : "ABRAZADERA NO.10 19-27MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3555,
+		"NOMBRE" : "ABRAZADERA NO.12 16-32MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3561,
+		"NOMBRE" : "ABRAZADERA NO.16 19-38MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3567,
+		"NOMBRE" : "ABRAZADERA NO.20 19-44MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3573,
+		"NOMBRE" : "ABRAZADERA NO.24 32-51MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3579,
+		"NOMBRE" : "ABRAZADERA NO.28 38-57MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3585,
+		"NOMBRE" : "ABRAZADERA NO.32 40-64MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3591,
+		"NOMBRE" : "ABRAZADERA NO.36 46-70MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3597,
+		"NOMBRE" : "ABRAZADERA NO.40 57-76MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3603,
+		"NOMBRE" : "ABRAZADERA NO.44 67-83MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3609,
+		"NOMBRE" : "ABRAZADERA NO.48 65-89MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3615,
+		"NOMBRE" : "ABRAZADERA NO.52 72-95MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3621,
+		"NOMBRE" : "ABRAZADERA NO.56 78-101MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3627,
+		"NOMBRE" : "ABRAZADERA NO.60 84-108MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3633,
+		"NOMBRE" : "ABRAZADERA NO.64 91-114MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3639,
+		"NOMBRE" : "ABRAZADERA NO.72 105-127MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3645,
+		"NOMBRE" : "ABRAZADERA NO.80 118-140MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3651,
+		"NOMBRE" : "ABRAZADERA NO.88 130-152MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3657,
+		"NOMBRE" : "ABRAZADERA NO.96 141-165MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3663,
+		"NOMBRE" : "ABRAZADERA NO.104 156-178MM INOXIDABLE"
+	},
+	{
+		"ARTICULO_ID" : 3669,
+		"NOMBRE" : "Bomba eléctrica para agua, centrífuga, 2 HP"
+	},
+	{
+		"ARTICULO_ID" : 3675,
+		"NOMBRE" : "Bomba manual de extracción, 25 lts"
+	},
+	{
+		"ARTICULO_ID" : 3681,
+		"NOMBRE" : "Bomba eléctrica periférica para agua 1/2 Hp, Truper Expert"
+	},
+	{
+		"ARTICULO_ID" : 3687,
+		"NOMBRE" : "Bomba eléctrica periférica para agua 3/4 Hp, Truper Expert"
+	},
+	{
+		"ARTICULO_ID" : 3693,
+		"NOMBRE" : "Bomba eléctrica periférica para agua 1 Hp, Truper Expert"
+	},
+	{
+		"ARTICULO_ID" : 3699,
+		"NOMBRE" : "Bomba eléctrica para agua, centrífuga, 1/4 HP"
+	},
+	{
+		"ARTICULO_ID" : 3705,
+		"NOMBRE" : "Bomba eléctrica para agua, centrífuga, 1/2 HP"
+	},
+	{
+		"ARTICULO_ID" : 3711,
+		"NOMBRE" : "Bomba eléctrica para agua, centrífuga, 3/4 HP"
+	},
+	{
+		"ARTICULO_ID" : 3717,
+		"NOMBRE" : "Bomba eléctrica para agua, centrífuga, 1 HP"
+	},
+	{
+		"ARTICULO_ID" : 3723,
+		"NOMBRE" : "Bomba eléctrica para agua, centrífuga, 1-1/2 HP"
+	},
+	{
+		"ARTICULO_ID" : 3729,
+		"NOMBRE" : "PRESURIZADOR DE 1/2HP"
+	},
+	{
+		"ARTICULO_ID" : 3735,
+		"NOMBRE" : "Bomba hidroneumática de 1/2HP, 24 litros"
+	},
+	{
+		"ARTICULO_ID" : 3741,
+		"NOMBRE" : "HIDRONEUMATICO 1HP 24 LT."
+	},
+	{
+		"ARTICULO_ID" : 3747,
+		"NOMBRE" : "Carretilla 5 ft3, llanta imponchable"
+	},
+	{
+		"ARTICULO_ID" : 3753,
+		"NOMBRE" : "FOCO AHORRADOR MINI-DOBLE EN U 3W"
+	},
+	{
+		"ARTICULO_ID" : 3759,
+		"NOMBRE" : "FOCO AHORRADOR MINI-DOBLE EN U 5W"
+	},
+	{
+		"ARTICULO_ID" : 3765,
+		"NOMBRE" : "FOCO AHORRADOR MINI-DOBLE EN U 7W"
+	},
+	{
+		"ARTICULO_ID" : 3771,
+		"NOMBRE" : "FOCO AHORRADOR TRIPLE-U 13W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3777,
+		"NOMBRE" : "FOCO AHORRADOR TRIPLE-U 15W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3783,
+		"NOMBRE" : "FOCO AHORRADOR TRIPLE-U 20W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3789,
+		"NOMBRE" : "FOCO AHORRADOR TRIPLE-U 24W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3795,
+		"NOMBRE" : "FOCO AHORRADOR TWIST 14W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3801,
+		"NOMBRE" : "FOCO AHORRADOR TWIST 18W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3807,
+		"NOMBRE" : "FOCO AHORRADOR TWIST 20W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3813,
+		"NOMBRE" : "FOCO AHORRADOR MINI-TRIPLE EN U 9W"
+	},
+	{
+		"ARTICULO_ID" : 3819,
+		"NOMBRE" : "FOCO AHORRADOR MINI-TRIPLE EN U 11W"
+	},
+	{
+		"ARTICULO_ID" : 3825,
+		"NOMBRE" : "FOCO AHORRADOR MINI-TRIPLE EN U 13W"
+	},
+	{
+		"ARTICULO_ID" : 3831,
+		"NOMBRE" : "FOCO AHORRADOR MINI-TRIPLE 9W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3837,
+		"NOMBRE" : "FOCO AHORRADOR MINITRIPLE 13W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3843,
+		"NOMBRE" : "FOCO AHORRADOR MINI-TWIST 9W LUZ CALIDA"
+	},
+	{
+		"ARTICULO_ID" : 3849,
+		"NOMBRE" : "Foco ahorrador spiral 65 watts en caja b"
+	},
+	{
+		"ARTICULO_ID" : 3855,
+		"NOMBRE" : "Cama de taller 40'"
+	},
+	{
+		"ARTICULO_ID" : 3861,
+		"NOMBRE" : "Cama de taller 36'"
+	},
+	{
+		"ARTICULO_ID" : 3867,
+		"NOMBRE" : "Banco de taller 14'"
+	},
+	{
+		"ARTICULO_ID" : 3873,
+		"NOMBRE" : "FOCO AHORRADOR CIRCULAR 22W"
+	},
+	{
+		"ARTICULO_ID" : 3879,
+		"NOMBRE" : "FOCO AHORRADOR SENCILLO EN U 7W"
+	},
+	{
+		"ARTICULO_ID" : 3885,
+		"NOMBRE" : "FOCO AHORRADOR SENCILLO EN U 9W"
+	},
+	{
+		"ARTICULO_ID" : 3891,
+		"NOMBRE" : "FOCO AHORRADOR SENCILLO EN U 13W"
+	},
+	{
+		"ARTICULO_ID" : 3897,
+		"NOMBRE" : "FOCO AHORRADOR DOBLE EN U 9W"
+	},
+	{
+		"ARTICULO_ID" : 3903,
+		"NOMBRE" : "FOCO AHORRADOR DOBLE EN U 13W"
+	},
+	{
+		"ARTICULO_ID" : 3909,
+		"NOMBRE" : "FOCO AHORRADOR DOBLE EN U 20W"
+	},
+	{
+		"ARTICULO_ID" : 3915,
+		"NOMBRE" : "FOCO AHORRADOR TRIPLE EN U 15W"
+	},
+	{
+		"ARTICULO_ID" : 3921,
+		"NOMBRE" : "FOCO AHORRADOR TRIPLE EN U 20W"
+	},
+	{
+		"ARTICULO_ID" : 3927,
+		"NOMBRE" : "FOCO AHORRADOR TRIPLE EN U 24W"
+	},
+	{
+		"ARTICULO_ID" : 3933,
+		"NOMBRE" : "FOCO AHORRADOR CUADRUPLE EN U 28W"
+	},
+	{
+		"ARTICULO_ID" : 3939,
+		"NOMBRE" : "FOCO AHORRADOR ESPECIAL 15W"
+	},
+	{
+		"ARTICULO_ID" : 3945,
+		"NOMBRE" : "FOCO AHORRADOR MINI-CIRCULAR 22W"
+	},
+	{
+		"ARTICULO_ID" : 3951,
+		"NOMBRE" : "FOCO AHORRADOR GLOBO 17W"
+	},
+	{
+		"ARTICULO_ID" : 3957,
+		"NOMBRE" : "FOCO AHORRADOR BALA 17W"
+	},
+	{
+		"ARTICULO_ID" : 3963,
+		"NOMBRE" : "FOCO AHORRADOR TWIST 15W"
+	},
+	{
+		"ARTICULO_ID" : 3969,
+		"NOMBRE" : "FOCO AHORRADOR TWIST 20W"
+	},
+	{
+		"ARTICULO_ID" : 3975,
+		"NOMBRE" : "FOCO AHORRADOR TWIST 24W"
+	},
+	{
+		"ARTICULO_ID" : 3981,
+		"NOMBRE" : "FOCO AHORRADOR STANDARD 7W"
+	}
+]}
