@@ -489,10 +489,11 @@ export default function Home() {
                 const email = emailInput?.value || '';
                 const message = messageInput?.value || '';
                 
+                // Only include the name in the subject, and only the message in the body
                 const subject = `Contact from ${name}`;
-                const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
                 
-                window.location.href = `mailto:contacto@integrai.com.mx?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                // Open email client with just the message in the body
+                window.location.href = `mailto:contact@integrai.com.mx?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
               }}>
                 <div>
                   <label htmlFor="name" className="block text-white text-base md:text-lg font-light mb-2">{translations.cta.form.name}</label>
@@ -520,4 +521,4 @@ export default function Home() {
       </section>
     </main>
   );
-} 
+}
