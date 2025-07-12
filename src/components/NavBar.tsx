@@ -1,42 +1,17 @@
 "use client"
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import LanguageSelector from './LanguageSelector';
 import { useParams } from 'next/navigation';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { useTranslations } from 'next-intl';
 
-interface Translations {
-    navbar: {
-        home: string;
-        services: string;
-        about: string;
-        contact: string;
-    };
-}
-
 export default function Navbar() {
     const pathname = usePathname();
     const params = useParams();
-    const locale = params.locale || 'es'; // default to 'en' if no locale
-    const [translations, setTranslations] = useState<Translations | null>(null);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-    useEffect(() => {
-        async function loadTranslations() {
-            try {
-                const response = await fetch(`/locales/${locale}/common.json`);
-                const data = await response.json();
-                setTranslations(data);
-            } catch (error) {
-                console.error("Error loading translations:", error);
-                // Handle the error appropriately, perhaps display a fallback message.
-                setTranslations(null);  // Set to an empty object to prevent crashes
-            }
-        }
-
-        loadTranslations();
-    }, [locale]);
+    
+    const t = useTranslations('common.navbar');
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -45,12 +20,6 @@ export default function Navbar() {
     const closeMobileMenu = () => {
         setIsMobileMenuOpen(false);
     };
-
-    if (!translations) {
-        return <div>Loading translations...</div>; // Or some other loading indicator
-    }
-    
-    const t = useTranslations('common');
     
     return (
         <nav className="absolute top-0 left-0 w-full z-20">
@@ -60,10 +29,10 @@ export default function Navbar() {
                     
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-10 items-center">
-                        <a href="#home" className="text-white text-lg font-light hover:opacity-80 transition">{t('navbar.home')}</a>
-                        <a href="#services" className="text-white text-lg font-light hover:opacity-80 transition">{t('navbar.services')}</a>
-                        <a href="#about" className="text-white text-lg font-light hover:opacity-80 transition">{t('navbar.about')}</a>
-                        <a href="#contact" className="text-white text-lg font-light hover:opacity-80 transition">{t('navbar.contact')}</a>
+                        <a href="#home" className="text-white text-lg font-light hover:opacity-80 transition">{t('home')}</a>
+                        <a href="#services" className="text-white text-lg font-light hover:opacity-80 transition">{t('services')}</a>
+                        <a href="#about" className="text-white text-lg font-light hover:opacity-80 transition">{t('about')}</a>
+                        <a href="#contact" className="text-white text-lg font-light hover:opacity-80 transition">{t('contact')}</a>
                         <LanguageSelector />
                     </div>
 
@@ -86,29 +55,32 @@ export default function Navbar() {
                                 className="text-white text-lg font-light hover:opacity-80 transition py-2"
                                 onClick={closeMobileMenu}
                             >
-                                {translations.navbar.home}
+                                {t('home')}
                             </a>
                             <a 
                                 href="#services" 
                                 className="text-white text-lg font-light hover:opacity-80 transition py-2"
                                 onClick={closeMobileMenu}
                             >
-                                {translations.navbar.services}
+                                {t('services')}
                             </a>
                             <a 
                                 href="#about" 
                                 className="text-white text-lg font-light hover:opacity-80 transition py-2"
                                 onClick={closeMobileMenu}
                             >
-                                {translations.navbar.about}
+                                {t('about')}
                             </a>
                             <a 
                                 href="#contact" 
                                 className="text-white text-lg font-light hover:opacity-80 transition py-2"
                                 onClick={closeMobileMenu}
                             >
-                                {translations.navbar.contact}
+                                {t('contact')}
                             </a>
+                            <div className="pt-4">
+                                <LanguageSelector />
+                            </div>
                         </div>
                     </div>
                 )}

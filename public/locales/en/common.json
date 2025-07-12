@@ -12,7 +12,7 @@
         "line2": "Solutions to Grow",
         "line3": "Your Business"
       },
-      "subtitle": "We help companies in Mexico automate repetitive tasks, connect systems, and work smarter with AI-powered workflows built just for you.",
+      "subtitle": "We help companies automate repetitive tasks, connect systems, and work smarter with AI-powered workflows built just for you.",
       "cta": "Let's talk"
     },
     "services": {
@@ -105,23 +105,23 @@
       "title": "Frequently Asked Question",
       "subtitle": "Here are some frequently asked questions with answers to clarify doubts.",
       "items": {
-        "item1": {
+        "item0": {
           "question": "What solutions does IntegrAI offer?",
           "answer": "IntegrAI provides AI-powered analytics, automation, security, and real-time insights to streamline business operations."
         },
-        "item2": {
+        "item1": {
           "question": "How quickly can I get started?",
           "answer": "You can get started within a week. Our onboarding process is fast and easy."
         },
-        "item3": {
+        "item2": {
           "question": "Can I customize IntegrAI for my needs?",
           "answer": "Absolutely! IntegrAI is designed to be flexible and customizable to fit your unique business requirements."
         },
-        "item4": {
+        "item3": {
           "question": "Do you provide support & updates?",
           "answer": "Yes, we offer 24/7 support and regular updates to ensure your operations run smoothly."
         },
-        "item5": {
+        "item4": {
           "question": "What are the pricing options?",
           "answer": "We offer a range of pricing plans to suit businesses of all sizes. Contact us for a custom quote."
         }

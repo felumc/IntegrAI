@@ -15,8 +15,11 @@ export function generateStaticParams() {
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'integrAI - AI Integration Solutions for SMEs',
+  title: 'IntegrAI - AI Integration Solutions for SMEs',
   description: 'Transform your business with cutting-edge AI integration solutions tailored for small and medium-sized enterprises.',
+  icons: {
+    icon: '/integrai-logo.jpeg'
+  }
 }
 
 export default async function RootLayout({
@@ -35,15 +38,13 @@ export default async function RootLayout({
   const messages = await getMessages();
   
   return (
-    <NextIntlClientProvider messages={messages}>
-      <html lang="en" style={{ scrollBehavior: 'smooth' }}>
-        <body className={inter.className}>
+    <html lang={locale} style={{ scrollBehavior: 'smooth' }}>
+      <body className={inter.className}>
+        <NextIntlClientProvider messages={messages}>
           <Navbar />
-
           {children}
-
-        </body>
-      </html>
-    </NextIntlClientProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   )
 } 

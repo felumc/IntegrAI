@@ -12,7 +12,7 @@
         "line2": "De AI para crecer",
         "line3": "Tu negocio"
       },
-      "subtitle": "Ayudamos a empresas en México a automatizar tareas repetitivas, conectar sistemas y trabajar de forma más inteligente con flujos de trabajo impulsados por AI, hechos a la medida.",
+      "subtitle": "Ayudamos a empresas a automatizar tareas repetitivas, conectar sistemas y trabajar de forma más inteligente con flujos de trabajo impulsados por AI, hechos a la medida.",
       "cta": "Hablemos"
     },
     "services": {
@@ -105,23 +105,23 @@
       "title": "Preguntas Frecuentes",
       "subtitle": "Aquí hay algunas preguntas frecuentes con respuestas para aclarar dudas.",
       "items": {
-        "item1": {
+        "item0": {
           "question": "¿Qué soluciones ofrece IntegrAI?",
           "answer": "IntegrAI proporciona análisis impulsados por AI, automatización, seguridad e insights en tiempo real para optimizar las operaciones comerciales."
         },
-        "item2": {
+        "item1": {
           "question": "¿Qué tan rápido puedo empezar?",
           "answer": "Puedes comenzar en una semana. Nuestro proceso de incorporación es rápido y sencillo."
         },
-        "item3": {
+        "item2": {
           "question": "¿Puedo personalizar IntegrAI según mis necesidades?",
           "answer": "¡Absolutamente! IntegrAI está diseñado para ser flexible y personalizable según tus requisitos empresariales únicos."
         },
-        "item4": {
+        "item3": {
           "question": "¿Proporcionan soporte y actualizaciones?",
           "answer": "Sí, ofrecemos soporte 24/7 y actualizaciones regulares para asegurar que tus operaciones funcionen sin problemas."
         },
-        "item5": {
+        "item4": {
           "question": "¿Cuáles son las opciones de precios?",
           "answer": "Ofrecemos una variedad de precios para adaptarnos a empresas de todos los tamaños. Contáctanos para obtener una cotización personalizada."
         }
