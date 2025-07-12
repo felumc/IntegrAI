@@ -1,154 +1,168 @@
 {
-  "navbar": {
-    "home": "Inicio",
-    "services": "Servicios",
-    "about": "Nosotros",
-    "contact": "Contacto"
-  },
-  "hero": {
-    "title": {
-      "line1": "Soluciones Innovadoras",
-      "line2": "De AI para crecer",
-      "line3": "Tu negocio"
+  "common": {
+    "navbar": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "about": "Nosotros",
+      "contact": "Contacto"
     },
-    "subtitle": "Ayudamos a empresas en México a automatizar tareas repetitivas, conectar sistemas y trabajar de forma más inteligente con flujos de trabajo impulsados por AI, hechos a la medida.",
-    "cta": "Hablemos"
-  },
-  "services": {
-    "heading": {
-      "line1": "Menos esfuerzo.",
-      "line2": "Mejores resultados.",
-      "line3": "Crecimiento inteligente."
+    "hero": {
+      "title": {
+        "line1": "Soluciones Innovadoras",
+        "line2": "De AI para crecer",
+        "line3": "Tu negocio"
+      },
+      "subtitle": "Ayudamos a empresas en México a automatizar tareas repetitivas, conectar sistemas y trabajar de forma más inteligente con flujos de trabajo impulsados por AI, hechos a la medida.",
+      "cta": "Hablemos"
     },
-    "description": {
-      "p1": "En IntegrAI creamos automatizaciones e integraciones inteligentes que eliminan tareas repetitivas y desbloquean nuevos niveles de productividad.",
-      "p2": "Ya sea que dirijas una pequeña empresa o gestiones un equipo en crecimiento, diseñamos soluciones que se adaptan a tu flujo de trabajo, no al revés."
-    },
-    "learnMore": "Conoce más",
-    "whatWeOffer": "Lo que Ofrecemos",
-    "offerings": {
-      "automation": {
-        "title": "Automatización empresarial con AI",
-        "description": "Diseñamos flujos de trabajo inteligentes que automatizan tareas repetitivas, reducen errores y liberan a tu equipo para enfocarse en lo más importante."
+    "services": {
+      "heading": {
+        "line1": "Menos esfuerzo.",
+        "line2": "Mejores resultados.",
+        "line3": "Crecimiento inteligente."
       },
-      "assistants": {
-        "title": "Asistentes de AI para tus Clientes y tu Equipo",
-        "description": "Creamos chatbots de AI para apoyar a tus clientes con respuestas y ayudar a tu equipo con solicitudes internas, informes y más a través de conversaciones naturales."
+      "description": {
+        "p1": "En IntegrAI creamos automatizaciones e integraciones inteligentes que eliminan tareas repetitivas y desbloquean nuevos niveles de productividad.",
+        "p2": "Ya sea que dirijas una pequeña empresa o gestiones un equipo en crecimiento, diseñamos soluciones que se adaptan a tu flujo de trabajo, no al revés."
       },
-      "integration": {
-        "title": "Integración Inteligente a Sistemas",
-        "description": "Conectamos tus herramientas y plataformas existentes con lógica de automatización, para que todo funcione de manera fluida y eficiente, con menos esfuerzo manual."
-      },
-      "strategy": {
-        "title": "Estrategia y Soporte de Automatización",
-        "description": "Desde la identificación de áreas de alto impacto hasta el lanzamiento y mantenimiento de soluciones de AI, apoyamos tu viaje de automatización en cada paso del camino."
+      "learnMore": "Conoce más",
+      "whatWeOffer": "Lo que Ofrecemos",
+      "offerings": {
+        "automation": {
+          "title": "Automatización empresarial con AI",
+          "description": "Diseñamos flujos de trabajo inteligentes que automatizan tareas repetitivas, reducen errores y liberan a tu equipo para enfocarse en lo más importante."
+        },
+        "assistants": {
+          "title": "Asistentes de AI para tus Clientes y tu Equipo",
+          "description": "Creamos chatbots de AI para apoyar a tus clientes con respuestas y ayudar a tu equipo con solicitudes internas, informes y más a través de conversaciones naturales."
+        },
+        "integration": {
+          "title": "Integración Inteligente a Sistemas",
+          "description": "Conectamos tus herramientas y plataformas existentes con lógica de automatización, para que todo funcione de manera fluida y eficiente, con menos esfuerzo manual."
+        },
+        "strategy": {
+          "title": "Estrategia y Soporte de Automatización",
+          "description": "Desde la identificación de áreas de alto impacto hasta el lanzamiento y mantenimiento de soluciones de AI, apoyamos tu viaje de automatización en cada paso del camino."
+        }
       }
-    }
-  },
-  "process": {
-    "title": "Nuestro Simple, Inteligente y Escalable Proceso",
-    "subtitle": "Diseñamos, desarrollamos e implementamos herramientas de automatización que te ayudan a trabajar con inteligencia, no con más esfuerzo.",
-    "steps": {
-      "analyzing": {
-        "title": "Análisis Inteligente",
-        "description": "Evaluamos tus necesidades e identificamos soluciones de AI para optimizar flujos de trabajo y mejorar la eficiencia."
-      },
-      "development": {
-        "title": "Desarrollo de AI",
-        "description": "Nuestro equipo construye sistemas de automatización inteligentes adaptados a tus procesos empresariales."
-      },
-      "integration": {
-        "title": "Integración Sin Problemas",
-        "description": "Integramos soluciones de AI en tu infraestructura existente con mínima interrupción."
-      },
-      "optimization": {
-        "title": "Optimización Continua",
-        "description": "Refinamos el rendimiento, analizamos insights y mejoramos la automatización para un crecimiento a largo plazo."
-      }
-    }
-  },
-  "benefits": {
-    "title": {
-      "line1": "Los Beneficios Clave de la AI",
-      "line2": "Para el Crecimiento de tu Negocio"
     },
-    "subtitle": "Descubre cómo la automatización con AI mejora la eficiencia, reduce costos e impulsa el crecimiento empresarial con procesos más inteligentes y rápidos.",
-    "items": {
-      "productivity": {
-        "title": "Mayor Productividad",
-        "description": "Obtén insights accionables con análisis impulsados por AI para mejorar la toma de decisiones y la estrategia."
-      },
-      "customerExperience": {
-        "title": "Mejor Experiencia del Cliente",
-        "description": "Las interacciones personalizadas con AI mejoran los tiempos de respuesta, el compromiso del cliente y la satisfacción general."
-      },
-      "availability": {
-        "title": "Disponibilidad 24/7",
-        "description": "Los sistemas impulsados por AI operan las 24 horas, garantizando soporte y ejecución sin interrupciones."
-      },
-      "costReduction": {
-        "title": "Reducción de Costos",
-        "description": "La automatización con AI minimiza el trabajo manual, reduce los costos operativos y optimiza la asignación de recursos."
-      },
-      "insights": {
-        "title": "Insights Basados en Datos",
-        "description": "Aprovecha la AI para analizar grandes conjuntos de datos, identificar tendencias y tomar decisiones empresariales más inteligentes."
-      },
-      "scalability": {
-        "title": "Escalabilidad y Crecimiento",
-        "description": "La AI se adapta a las necesidades de tu negocio, permitiéndote escalar eficientemente sin aumentar la carga de trabajo."
+    "process": {
+      "title": "Nuestro Simple, Inteligente y Escalable Proceso",
+      "subtitle": "Diseñamos, desarrollamos e implementamos herramientas de automatización que te ayudan a trabajar con inteligencia, no con más esfuerzo.",
+      "steps": {
+        "analyzing": {
+          "title": "Análisis Inteligente",
+          "description": "Evaluamos tus necesidades e identificamos soluciones de AI para optimizar flujos de trabajo y mejorar la eficiencia."
+        },
+        "development": {
+          "title": "Desarrollo de AI",
+          "description": "Nuestro equipo construye sistemas de automatización inteligentes adaptados a tus procesos empresariales."
+        },
+        "integration": {
+          "title": "Integración Sin Problemas",
+          "description": "Integramos soluciones de AI en tu infraestructura existente con mínima interrupción."
+        },
+        "optimization": {
+          "title": "Optimización Continua",
+          "description": "Refinamos el rendimiento, analizamos insights y mejoramos la automatización para un crecimiento a largo plazo."
+        }
       }
-    }
-  },
-  "faq": {
-    "title": "Preguntas Frecuentes",
-    "subtitle": "Aquí hay algunas preguntas frecuentes con respuestas para aclarar dudas.",
-    "items": [
+    },
+    "benefits": {
+      "title": {
+        "line1": "Los Beneficios Clave de la AI",
+        "line2": "Para el Crecimiento de tu Negocio"
+      },
+      "subtitle": "Descubre cómo la automatización con AI mejora la eficiencia, reduce costos e impulsa el crecimiento empresarial con procesos más inteligentes y rápidos.",
+      "items": {
+        "productivity": {
+          "title": "Mayor Productividad",
+          "description": "Obtén insights accionables con análisis impulsados por AI para mejorar la toma de decisiones y la estrategia."
+        },
+        "customerExperience": {
+          "title": "Mejor Experiencia del Cliente",
+          "description": "Las interacciones personalizadas con AI mejoran los tiempos de respuesta, el compromiso del cliente y la satisfacción general."
+        },
+        "availability": {
+          "title": "Disponibilidad 24/7",
+          "description": "Los sistemas impulsados por AI operan las 24 horas, garantizando soporte y ejecución sin interrupciones."
+        },
+        "costReduction": {
+          "title": "Reducción de Costos",
+          "description": "La automatización con AI minimiza el trabajo manual, reduce los costos operativos y optimiza la asignación de recursos."
+        },
+        "insights": {
+          "title": "Insights Basados en Datos",
+          "description": "Aprovecha la AI para analizar grandes conjuntos de datos, identificar tendencias y tomar decisiones empresariales más inteligentes."
+        },
+        "scalability": {
+          "title": "Escalabilidad y Crecimiento",
+          "description": "La AI se adapta a las necesidades de tu negocio, permitiéndote escalar eficientemente sin aumentar la carga de trabajo."
+        }
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Aquí hay algunas preguntas frecuentes con respuestas para aclarar dudas.",
+      "items": {
+        "item1": {
+          "question": "¿Qué soluciones ofrece IntegrAI?",
+          "answer": "IntegrAI proporciona análisis impulsados por AI, automatización, seguridad e insights en tiempo real para optimizar las operaciones comerciales."
+        },
+        "item2": {
+          "question": "¿Qué tan rápido puedo empezar?",
+          "answer": "Puedes comenzar en una semana. Nuestro proceso de incorporación es rápido y sencillo."
+        },
+        "item3": {
+          "question": "¿Puedo personalizar IntegrAI según mis necesidades?",
+          "answer": "¡Absolutamente! IntegrAI está diseñado para ser flexible y personalizable según tus requisitos empresariales únicos."
+        },
+        "item4": {
+          "question": "¿Proporcionan soporte y actualizaciones?",
+          "answer": "Sí, ofrecemos soporte 24/7 y actualizaciones regulares para asegurar que tus operaciones funcionen sin problemas."
+        },
+        "item5": {
+          "question": "¿Cuáles son las opciones de precios?",
+          "answer": "Ofrecemos una variedad de precios para adaptarnos a empresas de todos los tamaños. Contáctanos para obtener una cotización personalizada."
+        }
+      }
+    },
+    "cta": {
+      "title": {
+        "line1": "Deja que la AI trabaje",
+        "line2": "Mientras tu creces"
+      },
+      "subtitle": "Agenda una Llamada hoy y comienza a Automatizar",
+      "button": "Agenda una llamada gratis",
+      "form": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "button": "Enviar mensaje"
+      }
+    },
+    "footer": {
+      "copyright": "©2025 IntegrAI. ©2025 Todos los Derechos Reservados."
+    },
+    "analyzingPills": [
       {
-        "question": "¿Qué soluciones ofrece IntegrAI?",
-        "answer": "IntegrAI proporciona análisis impulsados por AI, automatización, seguridad e insights en tiempo real para optimizar las operaciones comerciales."
+        "label": "Revisión del sistema"
       },
       {
-        "question": "¿Qué tan rápido puedo empezar?",
-        "answer": "Puedes comenzar en una semana. Nuestro proceso de incorporación es rápido y sencillo."
+        "label": "Revisión de procesos"
       },
       {
-        "question": "¿Puedo personalizar IntegrAI según mis necesidades?",
-        "answer": "¡Absolutamente! IntegrAI está diseñado para ser flexible y personalizable según tus requisitos empresariales únicos."
+        "label": "Revisión de velocidad"
       },
       {
-        "question": "¿Proporcionan soporte y actualizaciones?",
-        "answer": "Sí, ofrecemos soporte 24/7 y actualizaciones regulares para asegurar que tus operaciones funcionen sin problemas."
+        "label": "Trabajo manual"
       },
       {
-        "question": "¿Cuáles son las opciones de precios?",
-        "answer": "Ofrecemos una variedad de precios para adaptarnos a empresas de todos los tamaños. Contáctanos para obtener una cotización personalizada."
+        "label": "Tarea repetitiva"
+      },
+      {
+        "label": "Rendimiento"
       }
     ]
-  },
-  "cta": {
-    "title": {
-      "line1": "Deja que la AI trabaje",
-      "line2": "Mientras tu creces"
-    },
-    "subtitle": "Agenda una Llamada hoy y comienza a Automatizar",
-    "button": "Agenda una llamada gratis",
-    "form": {
-      "name": "Nombre",
-      "email": "Correo electrónico",
-      "message": "Mensaje",
-      "button": "Enviar mensaje"
-    }
-  },
-  "footer": {
-    "copyright": "©2025 IntegrAI. ©2025 Todos los Derechos Reservados."
-  },
-  "analyzingPills": [
-    { "label": "Revisión del sistema" },
-    { "label": "Revisión de procesos" },
-    { "label": "Revisión de velocidad" },
-    { "label": "Trabajo manual" },
-    { "label": "Tarea repetitiva" },
-    { "label": "Rendimiento" }
-  ]
+  }
 }

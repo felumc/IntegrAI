@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import LanguageSelector from './LanguageSelector';
 import { useParams } from 'next/navigation';
 import { FiMenu, FiX } from 'react-icons/fi';
+import { useTranslations } from 'next-intl';
 
 interface Translations {
     navbar: {
@@ -49,6 +50,8 @@ export default function Navbar() {
         return <div>Loading translations...</div>; // Or some other loading indicator
     }
     
+    const t = useTranslations('common');
+    
     return (
         <nav className="absolute top-0 left-0 w-full z-20">
             <div className="container mx-auto px-4">
@@ -57,11 +60,11 @@ export default function Navbar() {
                     
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-10 items-center">
-                        <a href="#home" className="text-white text-lg font-light hover:opacity-80 transition">{translations.navbar.home}</a>
-                        <a href="#services" className="text-white text-lg font-light hover:opacity-80 transition">{translations.navbar.services}</a>
-                        <a href="#about" className="text-white text-lg font-light hover:opacity-80 transition">{translations.navbar.about}</a>
-                        <a href="#contact" className="text-white text-lg font-light hover:opacity-80 transition">{translations.navbar.contact}</a>
-                        {/* <LanguageSelector /> */}
+                        <a href="#home" className="text-white text-lg font-light hover:opacity-80 transition">{t('navbar.home')}</a>
+                        <a href="#services" className="text-white text-lg font-light hover:opacity-80 transition">{t('navbar.services')}</a>
+                        <a href="#about" className="text-white text-lg font-light hover:opacity-80 transition">{t('navbar.about')}</a>
+                        <a href="#contact" className="text-white text-lg font-light hover:opacity-80 transition">{t('navbar.contact')}</a>
+                        <LanguageSelector />
                     </div>
 
                     {/* Mobile Menu Button */}
