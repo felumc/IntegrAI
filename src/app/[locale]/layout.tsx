@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Footer from './Footer'
 import Navbar from '../../components/NavBar'
+import GoogleAnalytics from '../../components/GoogleAnalytics'
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { getMessages, setRequestLocale } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
@@ -39,6 +40,9 @@ export default async function RootLayout({
   
   return (
     <html lang={locale} style={{ scrollBehavior: 'smooth' }}>
+      <head>
+        <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ''} />
+      </head>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
