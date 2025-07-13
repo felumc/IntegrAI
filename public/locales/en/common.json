@@ -144,6 +144,11 @@
     "footer": {
       "copyright": "©2025 IntegrAI. ©2025 All Rights Reserved."
     },
+    "whatsapp": {
+      "contactUs": "Contact us",
+      "tooltip": "Chat with us on WhatsApp",
+      "defaultMessage": "Hi! I'm interested in learning more about IntegrAI's AI solutions. Can you help me?"
+    },
     "analyzingPills": [
       {
         "label": "System check"

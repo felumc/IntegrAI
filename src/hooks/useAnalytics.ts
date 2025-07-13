@@ -34,7 +34,7 @@ export const useAnalytics = () => {
 
   const trackPageView = useCallback((url: string, title?: string) => {
     if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('config', process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || '', {
+      window.gtag('config', 'G-MEZSQPPVF1', {
         page_location: url,
         page_title: title || document.title,
       });

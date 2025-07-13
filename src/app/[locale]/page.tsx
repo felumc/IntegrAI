@@ -2,6 +2,7 @@
 import { FiZap, FiSmile, FiClock, FiDollarSign, FiBarChart2, FiTrendingUp, FiChevronDown ,FiBarChart, FiEdit3, FiMessageCircle } from 'react-icons/fi';
 import { useState, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
+import WhatsAppButton from '../../components/WhatsAppButton';
 
 declare global {
   interface Window {
@@ -326,18 +327,25 @@ export default function Home() {
               <h2 className="hidden md:block text-5xl lg:text-7xl font-light mb-2 text-white">{tCta('title.line1')}</h2>
               <h2 className="hidden md:block text-5xl lg:text-7xl font-light mb-6 md:mb-8 text-white">{tCta('title.line2')}</h2>
               <p className="text-lg md:text-2xl font-light text-white mb-8 md:mb-12 ml-8 md:ml-0 mr-8 md:mr-0">{tCta('subtitle')}</p>
-              <a
-                href="#"
-                onClick={e => {
-                  e.preventDefault();
-                  if (window.Calendly) {
-                    window.Calendly.initPopupWidget({ url: 'https://calendly.com/contact-integrai/30min' });
-                  }
-                }}
-                className="bg-white text-[#0f172a] px-8 py-4 md:px-12 md:py-6 rounded-full font-normal hover:bg-blue-100 transition-all text-base md:text-lg shadow-lg inline-block text-center ml-8 md:ml-0 mr-8 md:mr-0"
-              >
-                {tCta('button')}
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4 ml-8 md:ml-0 mr-8 md:mr-0">
+                <a
+                  href="#"
+                  onClick={e => {
+                    e.preventDefault();
+                    if (window.Calendly) {
+                      window.Calendly.initPopupWidget({ url: 'https://calendly.com/contact-integrai/30min' });
+                    }
+                  }}
+                  className="bg-white text-[#0f172a] px-8 py-4 md:px-12 md:py-6 rounded-full font-normal hover:bg-blue-100 transition-all text-base md:text-lg shadow-lg inline-block text-center"
+                >
+                  {tCta('button')}
+                </a>
+                <WhatsAppButton 
+                  phoneNumber='525663879864'
+                  className="px-8 py-4 md:px-12 md:py-6 text-base md:text-lg shadow-lg"
+                  size="lg"
+                />
+              </div>
             </div>
             {/* Right: Contact Form */}
             <div className="flex-1 flex flex-col justify-center items-center bg-white/10 rounded-2xl md:rounded-3xl p-6 md:p-10 shadow-lg backdrop-blur-md mb-8 md:mb-12 ml-8 md:ml-0 mr-8 md:mr-0">
