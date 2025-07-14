@@ -4,6 +4,7 @@
       "home": "Home",
       "services": "Services",
       "about": "About",
+      "blog": "Blog",
       "contact": "Contact"
     },
     "hero": {
@@ -148,6 +149,26 @@
       "contactUs": "Contact us",
       "tooltip": "Chat with us on WhatsApp",
       "defaultMessage": "Hi! I'm interested in learning more about IntegrAI's AI solutions. Can you help me?"
+    },
+    "blog": {
+      "title": "IntegrAI Blog",
+      "subtitle": "Insights, updates, and stories from our AI automation journey",
+      "readMore": "Read More",
+      "backToBlog": "Back to Blog",
+      "readingTime": "min read",
+      "publishedOn": "Published on",
+      "noPostsYet": "No blog posts yet. Check back soon for insights about AI automation and business transformation!",
+      "aboutAuthor": "About the Author",
+      "readyToTransform": "Ready to Transform Your Business?",
+      "contactDescription": "Get in touch to learn how AI automation can benefit your specific business needs.",
+      "tags": "Tags:",
+      "allPosts": "All Posts",
+      "categories": {
+        "ai": "AI & Automation",
+        "business": "Business Growth",
+        "case-study": "Case Studies",
+        "technology": "Technology"
+      }
     },
     "analyzingPills": [
       {

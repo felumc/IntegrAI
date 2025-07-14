@@ -3,6 +3,8 @@ import { FiZap, FiSmile, FiClock, FiDollarSign, FiBarChart2, FiTrendingUp, FiChe
 import { useState, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import WhatsAppButton from '../../components/WhatsAppButton';
+import { getBlogPosts, getFeaturedPosts } from '@/data/blog';
+import { Link } from '@/i18n/navigation';
 
 declare global {
   interface Window {
@@ -37,6 +39,18 @@ export default function Home() {
   const tFaq = useTranslations('common.faq');
   const tCta = useTranslations('common.cta');
   const tFooter = useTranslations('common.footer');
+  const tBlog = useTranslations('common.blog');
+  
+  // Get featured blog posts for the current locale
+  const [currentLocale, setCurrentLocale] = useState('en');
+  const featuredPosts = getFeaturedPosts(currentLocale);
+  
+  // Get locale from the URL path
+  useEffect(() => {
+    const path = window.location.pathname;
+    const locale = path.includes('/es/') ? 'es' : 'en';
+    setCurrentLocale(locale);
+  }, []);
 
   const toggleFAQ = (idx: number) => {
     setOpenIndex(openIndex === idx ? null : idx);
@@ -309,6 +323,85 @@ export default function Home() {
                 );
               })}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Section */}
+      <section className="py-20 md:py-32 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-[#0f172a] mb-4 md:mb-6">
+              Latest Insights
+            </h2>
+            <p className="text-base md:text-xl text-gray-600 font-light max-w-2xl mx-auto">
+              Discover the latest trends, case studies, and insights about AI automation for businesses
+            </p>
+          </div>
+          
+          {featuredPosts.length > 0 ? (
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
+              {featuredPosts.slice(0, 3).map((post) => (
+                <article
+                  key={post.id}
+                  className="group bg-[#f6f6f6] rounded-xl md:rounded-2xl p-6 md:p-8 hover:shadow-md transition-all duration-300"
+                >
+                  {/* Tags */}
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="text-xs font-light text-gray-500 uppercase tracking-wide">
+                      {tBlog(`categories.${post.category}`)}
+                    </span>
+                    <span className="text-xs font-light text-amber-600 uppercase tracking-wide">
+                      Featured
+                    </span>
+                  </div>
+                  
+                  {/* Title */}
+                  <h3 className="text-lg md:text-xl font-light text-[#0f172a] mb-3 leading-tight">
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="group-hover:text-blue-600 transition-colors"
+                    >
+                      {post.title}
+                    </Link>
+                  </h3>
+                  
+                  {/* Excerpt */}
+                  <p className="text-gray-600 text-sm font-light mb-6 leading-relaxed line-clamp-3">
+                    {post.excerpt}
+                  </p>
+                  
+                  {/* Bottom section */}
+                  <div className="flex items-center justify-between border-t border-gray-200 pt-4">
+                    <div className="flex items-center gap-3 text-xs text-gray-400">
+                      <span className="font-light">{post.publishedAt}</span>
+                      <span className="w-1 h-1 bg-gray-300 rounded-full"></span>
+                      <span className="font-light">{post.readingTime} min</span>
+                    </div>
+                    
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="text-xs font-light text-blue-600 hover:text-blue-800 transition-colors uppercase tracking-wide"
+                    >
+                      {tBlog('readMore')}
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-12">
+              <p className="text-gray-600 text-lg font-light">{tBlog('noPostsYet')}</p>
+            </div>
+          )}
+          
+          <div className="text-center">
+            <Link
+              href="/blog"
+              className="inline-flex items-center text-lg text-[#0f172a] font-light border-b border-[#0f172a] hover:opacity-80 transition group"
+            >
+              View All Posts <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+            </Link>
           </div>
         </div>
       </section>
